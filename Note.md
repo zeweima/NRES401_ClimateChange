@@ -1,21 +1,3 @@
-<style>
-  body {
-    counter-reset: figureCounter;
-    background-color: lightblue;
-  }
-  /* 2. Increment the counter for each figure with a caption */
-  figure figcaption {
-    counter-increment: figureCounter;
-  }
-  
-  /* 3. Display the counter in the caption (e.g., "Figure 1: ") */
-  figure figcaption:before {
-    content: "Figure " counter(figureCounter) ": ";
-    font-weight: bold;
-  }
-</style>
-
-
 # Overall question
 
 - Question 1: What is climate change, and are there any signs suggest it is happening (What has happened and is happening)?
