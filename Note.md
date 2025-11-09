@@ -1,4 +1,20 @@
-<link rel="stylesheet" href="note_css.css">
+<style>
+  body {
+    counter-reset: figureCounter;
+    background-color: lightblue;
+  }
+  /* 2. Increment the counter for each figure with a caption */
+  figure figcaption {
+    counter-increment: figureCounter;
+  }
+  
+  /* 3. Display the counter in the caption (e.g., "Figure 1: ") */
+  figure figcaption:before {
+    content: "Figure " counter(figureCounter) ": ";
+    font-weight: bold;
+  }
+</style>
+
 
 # Overall question
 

@@ -1,6 +1,7 @@
 /* 1. Create a counter for the main body */
 body {
   counter-reset: figureCounter;
+  background-color: lightblue;
 }
 
 /* 2. Increment the counter for each figure with a caption */
