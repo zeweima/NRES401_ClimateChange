@@ -47,7 +47,7 @@ Some observations for Figure 1 [^Jones2024]:
 </figure>
 
 
-Some cases:
+#### Some cases:
 > Intro to **Jones et al., (2024)[^Jones2024]**: This paper analysis the correlation between different factor, both nature and human indicators, with forest burn area (BA) across the world. This paper reveals the complex causes of wildfire across different eco-regions. Climate change is an important influencer. For instance, decreased soil moisture increases the chance of wildfire and BA in most regions. The change in weather also increases BA. Beyond that, human activities also influence wildfire, in both positive and negative ways. For instance, in tropic forest in Amazon and Congo, the deforestation and increases the chance of wildfire, while in regions like southeast US and western US, fire management is helpful in reduce BA. More details in the paper.
 <figure>
   <img src="Figures/Notes/Social/10.1177_2053019614564785-fig3.jpg" alt="Description" width="400">
@@ -66,6 +66,7 @@ Some cases:
   <figcaption><b>Figure. socio-economic development</b> Trends from 1750 to 2010 in globally aggregated indicators for socio-economic development. (Steffen et al., 2015). The figure illustrates the "Great Acceleration" in human activities since the mid-20th century, highlighting key indicators such as population growth, economic activity, and resource consumption.</figcaption>
 </figure>
 
+#### Some cases:
 > Intro to **Steffen et al., (2015)[^Steffen2015]**: This paper discusses the concept of the Anthropocene and the significant changes in human activities and their impact on the Earth system. It highlights the "Great Acceleration" in human activities since the mid-20th century, which has led to unprecedented changes in the environment, including climate change, biodiversity loss, and alterations to biogeochemical cycles.
 
 ## IPCC report
@@ -82,11 +83,6 @@ The rationale of scenarios are:
 
 RCPs is the abbreviation of Representative Concentration Pathways. They are greenhouse gas concentration (not emissions) trajectories adopted by the IPCC for its fifth Assessment Report (AR5) in 2014. There are four RCPs: RCP2.6, RCP4.5, RCP6, and RCP8.5. The numbers refer to the possible range of radiative forcing values in the year 2100 relative to pre-industrial values (+2.6, +4.5, +6.0, and +8.5 W/m², respectively) [^Moss2010][^Vuuren2011].
 
-<figure>
-  <img src="Figures\Notes\RCPs\IPCC_Structure.png" alt="Description" width="500">
-  <figcaption><b>Figure. IPCC relationships between the various groups</b> (Moss et al., 2008).</figcaption>
-</figure>
-
 - *Representative*: each of the RCPs represents a larger set of scenarios in the literature.  
 - *Pathways*: are internally consistent sets of projections of the components of radiative forcing that are used in subsequent phases
 - *Concentration*: emphasizes that concentrations are used as the primary product of the RCPs, designed as input to climate models
@@ -94,6 +90,11 @@ RCPs is the abbreviation of Representative Concentration Pathways. They are gree
 <figure>
   <img src="Figures\Notes\RCPs\RCPs.png" alt="Description" width="600">
   <figcaption> <b>Table RCP1</b>.Overview of RCPs.</figcaption>
+</figure>
+
+<figure>
+  <img src="Figures\Notes\RCPs\IPCC_Structure.png" alt="Description" width="500">
+  <figcaption><b>Figure. IPCC relationships between the various groups</b> (Moss et al., 2008).</figcaption>
 </figure>
 
 ##### Definition of RCPs from IPCC:  
@@ -119,6 +120,7 @@ Scenarios that include time series of emissions and concentrations of the full s
 4. The socioeconomic scenarios underlying the RCPs cannot be treated as a set with an overarching internal logic.
 5. There are uncertainties in the translation of emissions profiles to concentrations and radiative forcing. 
 
+#### Some cases:
 > Intro to **Moss et al., (2010)[^Moss2010]**: This paper give a introduction to the new generation of scenarios, including the rationales, history and brieft description of generation process. It also discusses the integration of RCPs with socio-economic scenarios, which are later developed into SSPs.
 
 > Intro to **Vuuren et al., (2011)[^Vuuren2011]**: This paper provides an detailed overview of the Representative Concentration Pathways (RCPs), including their development, characteristics, and applications in climate change research. 
@@ -138,6 +140,7 @@ SSPs are the input for the integrated assessment models.
 ##### Definition of SSPs from IPCC
 SSPs have been developed to complement the Representative Concentration Pathways (RCPs). By design, the RCP emission and concentration pathways were stripped of their association with a certain socio-economic development. Different levels of emissions and climate change along the dimension of the RCPs can hence be explored against the backdrop of different socio-economic development pathways (SSPs) on the other dimension in a matrix. This integrative SSP-RCP framework is now widely used in the climate impact and policy analysis literature, where climate projections obtained under the RCP scenarios are analysed against the backdrop of various SSPs. As several emission updates were due, a new set of emission scenarios was developed in conjunction with the SSPs. Hence, the abbreviation SSP is now used for two things: On the one hand SSP1, SSP2, …, SSP5 are used to denote the five socio-economic scenario families. On the other hand, the abbreviations SSP1‑1.9, SSP1‑2.6, …, SSP5‑8.5 are used to denote the newly developed emission scenarios that are the result of an SSP implementation within an integrated assessment model. Those SSP scenarios are bare of climate policy assumption, but in combination with so-called shared policy assumptions (SPAs), various approximate radiative forcing levels of 1.9, 2.6, …, or 8.5 W m–2 are reached by the end of the century, respectively.
 
+#### Some cases:
 > Intro to **O'Neill et al., (2017)[^ONeill2017]**: This paper give an overview of the Shared Socioeconomic Pathways (SSPs), including the rationales, intro to its development process, and high-level narratives for each SSP, the summary of the assumptions for 1) demographic and human development elements, 2) Economy & Lifestyle and Policies & Institutions elements, 3) Technology and Environment & Natural Resources elements.
 > > **Example narrative for SSP3**: "A resurgent nationalism, concerns about competitiveness and security, and regional conflicts push countries to increasingly focus on domestic or, at most, regional issues. This trend is reinforced by the limited number of comparatively weak global institutions, with uneven coordination and cooperation for addressing environmental and other global concerns. Policies shift over time to become increasingly oriented toward national and regional security issues, including barriers to trade, particularly in the energy resource and agricultural markets. Countries focus on achieving energy and food security goals within their own regions at the expense of broader-based development, and in several regions move toward more authoritarian forms of government with highly regulated economies. Investments in education and technological development decline. Economic development is slow, consumption is material-intensive, and inequalities persist or worsen over time, especially in developing countries. There are pockets of extreme poverty alongside pockets of moderate wealth, with many countries struggling to maintain living standards and provide access to safe water, improved sanitation, and health care for disadvantaged populations. A low international priority for addressing environmental concerns leads to strong environmental degradation in some regions. The combination of impeded development and limited environmental concern results in poor progress toward sustainability. Population growth is low in industrialized and high in developing countries. Growing resource intensity and fossil fuel dependency along with difficulty in achieving international cooperation and slow technological change imply high challenges to mitigation. The limited progress on human development, slow income growth, and lack of effective institutions, especially those that can act across regions, implies high challenges to adaptation for many groups in all regions."
 
