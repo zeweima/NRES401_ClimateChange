@@ -39,20 +39,29 @@ There are multiple signs suggest climate change is happening, two of types of th
 
 By 2024, the global mean surface temperature has risen by 1.45°C compared with the pre-industrial level (1850-1900 average) [^WMO2024]. Recently, the warming rate accelerated.
 
+<details>
+<summary>Figure. Global temperature rise</summary>
 <figure>
   <img src="Figures/Notes/Temperature/GlobalTemperature.png" alt="Description" width="700">
   <figcaption><b>Figure. Global temperature rise</b> Trends in global surface temperature from 1880 to 2023. (WMO, 2024)[^WMO2024].</figcaption>
 </figure>
+</details>
 
+<details>
+<summary>Figure. Global temperature history</summary>
 <figure>
   <img src="Figures/Notes/Temperature/GlobalTemperatureHistory.png" alt="Description" width="800">
   <figcaption><b>Figure. Global temperature history</b> The temperature now has reaching new point compared in the holocene.</figcaption>
 </figure>
+</details>
 
+<details>
+<summary>Figure. Sea surface temperature</summary>
 <figure>
   <img src="Figures/Notes/Temperature/SeaSurfaceTemperature.png" alt="Description" width="800">
   <figcaption><b>Figure. Sea surface temperature history</b> The sea surface temperature reached a new record since 2023, compared with previous years. (https://climatereanalyzer.org/clim/sst_daily/?dm_id=world2)</figcaption>
 </figure>
+</details>
 
 ### Ice melt
 
