@@ -1,28 +1,70 @@
 # Overall question
 
-- Question 1: What is climate change, and is there any signs suggest it is happening?
+- Question 1: What is climate change, and are there any signs suggest it is happening (What has happened and is happening)?
 - Question 2: What are the causes of climate change and the role of human behavior?
 - Question 3: What are the differences and connections between climate change and global warming?
 - Question 4: What are RCPs and SSPs in climate change research, and how do they differ? How are they used to model future climate scenarios in IPCC?
+- Question 5: What are going to happen in the future?
 
 # Some links
 
 ## Online videos
 
-- [AR6 Synthesis Report: Climate Change 2023](https://www.youtube.com/watch?v=YIFCSZYU2LM)
+- [AR6 Synthesis Report: Climate Change 2023 | IPCC](https://www.youtube.com/watch?v=YIFCSZYU2LM)
 - [Nobel Prize lecture: Syukuro Manabe, Nobel Prize in physics 2021](https://www.youtube.com/watch?v=-VNKJ2IbRoo&list=PPSV)
 - [The Tipping Points of Climate Change — and Where We Stand | Johan Rockström | TED](https://www.youtube.com/watch?v=Vl6VhCAeEfQ)
-- [How scientists calculate climate change | the economist](https://www.youtube.com/watch?v=fSGorwtY-zM)
-- [NASA | A Year in the Life of Earth's CO2](https://www.youtube.com/watch?v=x1SgmFa0r04&list=PLQVWjfOruX-x7DVigo9P2rfknMVFASc5-)
-- [What is climate change? - The Climate Question, BBC World Service](https://www.youtube.com/watch?v=SLEenW2UiUw)
-
+- [How scientists calculate climate change | The Economist](https://www.youtube.com/watch?v=fSGorwtY-zM)
+- [A Year in the Life of Earth's CO2 | NASA](https://www.youtube.com/watch?v=x1SgmFa0r04&list=PLQVWjfOruX-x7DVigo9P2rfknMVFASc5-)
+- [What is climate change? - The Climate Question | BBC](https://www.youtube.com/watch?v=SLEenW2UiUw)
+- [Annual Arctic Sea Ice Minimum Area 1979-2022, With Graph | NASA](https://www.youtube.com/watch?v=njoTDqwFuuU)
+- [A selection of GraphCast’s predictions rolling across 10 days | Google](https://www.youtube.com/watch?v=xwSirqS8meQ)
+- [See what three degrees of global warming looks like | The Economist](https://www.youtube.com/watch?v=uynhvHZUOOo&t=22s)
+- [The carbon cycle is key to understanding climate change | The Economist](https://www.youtube.com/watch?v=yhlg9txl7yM)
+- [Climate Change Adaptation and Future Climate Projection | CCCA](https://www.youtube.com/watch?v=8jhSHm7qjBg)
 
 ## Other links
 
-- [NASS climage change](https://science.nasa.gov/climate-change/)
-- [NASS climage change primer](https://climateprimer.org/)
+- [NASA climate change](https://science.nasa.gov/climate-change/)
+- [NASA climate change primer](https://climateprimer.org/)
 - [How to read the Intergovernmental Panel on Climate Change's reports](https://www.carbonbrief.org/how-to-read-the-intergovernmental-panel-on-climate-changes-reports/)
-## Example of climate change
+- [NOAA climate monitoring](https://www.ncei.noaa.gov/access/monitoring/products/)
+- [Climate Reanalyzer](https://climatereanalyzer.org/)
+- [World Glacier Monitoring Service](https://wgms.ch/)
+
+## Signs of climate change
+
+There are multiple signs suggest climate change is happening, two of types of them are: long-term change and extreme events.
+
+### Temperature rise
+
+By 2024, the global mean surface temperature has risen by 1.45°C compared with the pre-industrial level (1850-1900 average) [^WMO2024]. Recently, the warming rate accelerated.
+
+<figure>
+  <img src="Figures/Notes/Temperature/GlobalTemperature.png" alt="Description" width="700">
+  <figcaption><b>Figure. Global temperature rise</b> Trends in global surface temperature from 1880 to 2023. (WMO, 2024)[^WMO2024].</figcaption>
+</figure>
+
+<figure>
+  <img src="Figures/Notes/Temperature/GlobalTemperatureHistory.png" alt="Description" width="800">
+  <figcaption><b>Figure. Global temperature history</b> The temperature now has reaching new point compared in the holocene.</figcaption>
+</figure>
+
+<figure>
+  <img src="Figures/Notes/Temperature/SeaSurfaceTemperature.png" alt="Description" width="800">
+  <figcaption><b>Figure. Sea surface temperature history</b> The sea surface temperature reached a new record since 2023, compared with previous years. (https://climatereanalyzer.org/clim/sst_daily/?dm_id=world2)</figcaption>
+</figure>
+
+### Ice melt
+
+<figure>
+  <img src="Figures/Notes/IceSheet/C3S_Bulletin_seaice_202503_Fig2_Arctic_daily_extent.png" alt="Description" width="800">
+  <figcaption><b>Figure. Arctic sea ice extent</b> (https://climate.copernicus.eu/sea-ice-cover-march-2025)</figcaption>
+</figure>
+
+<figure>
+  <img src="Figures/Notes/IceSheet/C3S_Bulletin_seaice_202503_Fig5_Antarctic_daily_extent.png" alt="Description" width="800">
+  <figcaption><b>Figure. Antarctic sea ice extent</b> (https://climate.copernicus.eu/sea-ice-cover-march-2025)</figcaption>
+</figure>
 
 ### Wildfires
 <!---
@@ -56,6 +98,8 @@ Some observations for Figure 1 [^Jones2024]:
 <!---
 [Ref1]: https://www.science.org/doi/10.1126/science.adl5889 "Jones, M.W., Veraverbeke, S., Andela, N., Doerr, S.H., Kolden, C., Mataveli, G., Pettinari, M.L., Le Quéré, C., Rosan, T.M., van der Werf, G.R. and van Wees, D., 2024. Global rise in forest fire emissions linked to climate change in the extratropics. Science, 386(6719), p.eadl5889."
 --->
+
+## 
 
 ## Others
 
@@ -154,3 +198,4 @@ SSPs have been developed to complement the Representative Concentration Pathways
 [^Riahi2017]: [Riahi, K., Van Vuuren, D.P., Kriegler, E., Edmonds, J., O’neill, B.C., Fujimori, S., Bauer, N., Calvin, K., Dellink, R., Fricko, O. and Lutz, W., 2017. The Shared Socioeconomic Pathways and their energy, land use, and greenhouse gas emissions implications: An overview. Global environmental change, 42, pp.153-168.](https://www.sciencedirect.com/science/article/pii/S0959378016300681)
 [^Vuuren2011]: [Van Vuuren, D.P., Edmonds, J., Kainuma, M., Riahi, K., Thomson, A., Hibbard, K., Hurtt, G.C., Kram, T., Krey, V., Lamarque, J.F. and Masui, T., 2011. The representative concentration pathways: an overview. Climatic change, 109(1), p.5.](https://link.springer.com/article/10.1007/s10584-011-0148-z)
 [^Moss2008]: [Moss, R.H., Babiker, M., Brinkman, S., Calvo, E., Carter, T., Edmonds, J.A., Elgizouli, I., Emori, S., Lin, E., Hibbard, K. and Jones, R., 2008. Towards new scenarios for analysis of emissions, climate change, impacts, and response strategies.](https://archive.ipcc.ch/pdf/supporting-material/expert-meeting-report-scenarios.pdf)
+[^WMO2024]: [World Meteorological Organization, 2024. State of the Global Climate 2023](https://wmo.int/publication-series/state-of-global-climate-2023)
