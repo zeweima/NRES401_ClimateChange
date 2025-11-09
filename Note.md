@@ -50,8 +50,12 @@ By 2024, the global mean surface temperature has risen by 1.45°C compared with 
 <details>
 <summary>Figure. Global temperature history</summary>
 <figure>
-  <img src="Figures/Notes/Temperature/GlobalTemperatureHistory.png" alt="Description" width="800">
-  <figcaption><b>Figure. Global temperature history</b> The temperature now has reaching new point compared in the holocene.</figcaption>
+  <p>
+    <img src="Figures/Notes/Temperature/GlobalTemperatureHistory.png" alt="Global temperature history" width="800">
+  </p>
+  <figcaption>
+    <b>Figure. Global temperature history</b> The temperature has now reached a new point compared to the Holocene.
+  </figcaption>
 </figure>
 </details>
 
