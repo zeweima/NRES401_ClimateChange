@@ -31,6 +31,8 @@
 - [Climate Reanalyzer | Climate Reanalyzer](https://climatereanalyzer.org/)
 - [World Glacier Monitoring Service | WGMS](https://wgms.ch/)
 - [Understanding Shared Socio-economic Pathways (SSPs) | Climate Data Canada](https://climatedata.ca/resource/understanding-shared-socio-economic-pathways-ssps/)
+- [Drought Impact Reporter Dashboard | University of Nebraska](https://unldroughtcenter.maps.arcgis.com/apps/dashboards/46afe627bb60422f85944d70069c09cf)
+- [The European Drought Reference Database | EDO](https://geo.uio.no/edc/droughtdb/)
 
 ## Signs of climate change
 
@@ -147,10 +149,68 @@ The sea level rise threatens coastal cities. For instance, increased inundation 
 
 > [NASA Analysis Shows Unexpected Amount of Sea Level Rise in 2024 | NASA](https://www.nasa.gov/missions/jason-cs-sentinel-6/sentinel-6-michael-freilich/nasa-analysis-shows-unexpected-amount-of-sea-level-rise-in-2024/#:~:text=Global%20sea%20level%20rose%20faster,(0.43%20centimeters)%20per%20year.)
 
-### Wildfires
-<!---
-**Intro to [Jones et al., (2024)][Ref1]**: This paper analysis the correlation between different factor, both nature and human indicators, with forest burn area (BA) across the world. This paper reveals the complex causes of wildfire across different eco-regions. Climate change is an important influencer. For instance, decreased soil moisture increases the chance of wildfire and BA in most regions. The change in weather also increases BA. Beyond that, human activities also influence wildfire, in both positive and negative ways. For instance, in tropic forest in Amazon and Congo, the deforestation and increases the chance of wildfire, while in regions like southeast US and western US, fire management is helpful in reduce BA. 
---->
+### Extremes
+
+Other aspects of climate change is the increasing frequency and intensity of extreme events, including drought, heatwaves, heavy precipitation/flooding, and wildfires. Here is a figure showing several extremes in 2023 [^Zhang2024]. In this year, several places experienced record-breaking extreme events, including: Worst wildfire in Canada, Wildfire in Hawaii (the deadliest fire in the US in the past century), Madagascar experiencing the hottest Oct etc.
+<details>
+<summary><b>Figure. Extreme events in 2023</b></summary>
+<figure>
+  <p>
+    <img src="Figures/Notes/ClimateExtreme/s00376-024-4080-3.jpeg" alt="Description" width="1000">
+  </p>
+  <figcaption><b>Figure. Extreme events in 2023</b></figcaption>
+</figure>
+</details>
+
+#### Droughts
+
+IPCC (fourth assessment report, I followed Trenberth et al., 2014's work) give a definitions: drought is defined as a 'prolonged absence or marked deficiency of precipitation', a 'deficiency of precipitation that results in water shortage for some activity or for some group' or a 'period of abnormally dry weather sufficiently prolonged for the lack of precipitation to cause a serious hydrological imbalance' [^Trenberth2014][^AghaKouchak2021]. From which, we could see that different groups/use cases may concerns different aspects of drought. Thus, the detection and identification of drought may depend on the definitions used. One widely used index is the standardized precipitation evapotranspiration index (SPEI), in which both precipitation and temperature (potential evapotranspiration) are considered, and it also contains the time scale information. From a recent publication by Gebrechorkos et al., (2025)[^Gebrechorkos2025], we could see an increasing trend in droughts globally from 1981 to 2022, as shown in the figure below.
+
+<details>
+<summary><b>Figure. Global increasing trend in droughts</b></summary>
+<figure>
+  <p>
+    <img src="Figures/Notes/ClimateExtreme/41586_2025_9047_Fig1_HTML.webp" alt="Description" width="600">
+  </p>
+  <figcaption><b>Figure. Monthly SPEI, percentage of area in drought and maps of SPEI trends and the 2022 drought.</b> a,b, The quasi-global (50° S to 50° N) average HRSPEI (a) and global percentage of area in droughts (b). c, The trend in 6-month HRSPEI for 1981–2022 (z-units yr−1), with non-significant trends (P > 0.05) marked in grey for visualization. d, The 6-month HRSPEI values for the record-breaking drought in August 2022 (z-units). The time series uses HRSPEI (0.05°), CRU-TS (0.5°) and ERA5 (0.25°), with HRSPEI being the ensemble mean of MSWEP_hPET, MSWEP_GLEAM, CHIRPS_hPET and CHIRPS_GLEAM (1981–2022). CRU-TS covers 1901–2022 and ERA5 spans 1950–2022. The time series are averaged over tropical and subtropical land areas (50° S to 50° N), excluding regions with average annual rainfall below 180 mm. For regions above 50° N, the spatial trend is based on the mean of MSWEP_hPET and MSWEP_GLEAM, as CHIRPS is available up to 50° N. The vertical lines indicate the period from 1950 to 1980, showing higher positive SPEI values based on ERA5 and CRU-TS compared with 1981–2022. (Gebrechorkos et al., 2025)</figcaption>
+</figure>
+</details>
+
+Beyond that, recently studies pay special attention to "flash drought", characterized by rapid onset and intensification, often linked to extreme heat and low soil moisture [^Pendergrass2020][^Xing2023]. One example is the 2012 US flash drought in the Midwest region, which caused significant agricultural losses. Its mechanism and predictions remain an active research area.
+
+##### Some papers
+
+> Intro to **Van Loon et al., (2016)[^VanLoon2016]**: A perspective to call for combining nature aspects and human aspects in drought management.
+
+> Intro to **Trenberth et al., (2014)[^Trenberth2014]**: A perspective paper discussed the possible reasons that leads to contradictory findings in drought research, highlighting the importance of recognizing definitions and data quality.
+
+> Intro to **Gebrechorkos et al., (2025)[^Gebrechorkos2025]**: This paper investigates the global trends in droughts using SPET index from 1981-2022 with a specific focus on understanding the relative role of precipitation change and potential evapotranspiration to the trend. Overall, the authors find an increasing trend in droughts globally, and both P and PET (~58% to the change) matters.
+
+> Intro to **Pendergrass et al., (2020)[^Pendergrass2020]**: This paper discusses the phenomenon and challenges of flash droughts. Firstly, flash drought presents as a worldwide challenge. It's formation include a combination of factors, such as climate driver and land-atmosphere interactions. These pose challenges for both monitoring and prediction, for instance, high frequency monitiring is needed, a comprehensive climate variables beyond precipitation is needed. Also the current models have limitions in predicting flash droughts, such as biased estimation for extreme events, the inacurate representation of land-atmosphere interactions, teleconnections etc. Along with the advocating for betterr monitoring and modeling, the authors highlightes using standardized approchches to identify to indentify flash drought, and suggested the neccesity of early warning systems for flash droughts management.
+
+> Calculation of SPEI [^Beguería2014]:
+> **Step 1**: Calculate the Climatic Water Balance ($D$)
+>> $D_i = P_i - PET_i$ (P: water resources supply; PET: atmospheric water demand; *checking: sometimes, actual ET could replace P as a more direct measure of plant stress*)
+>
+>> **Step 2**: Aggregate the Water Balance ($D^k$) Here $k$ is the time scale of interest, as drought could happen in different time scales
+>> $D_i^{k} = \sum_{j=0}^{k-1} D_{i-j}$
+>
+>> **Step 3**: Fit Distribution and Standardize. The idea is to compare current state with historical state.
+>>>
+>>> 1) Choose a Distribution: three-parameter log-Logistic distribution is generally used
+>>> 2) Estimate the parameters of the distribution (e.g., using L-moments)
+>>> 3) Calculate the cumulative probability ($F$) of $D_i^{k}$
+>>> 4) Standardize $F$ to get SPEI value (using inverse standard normal distribution). 
+>>> SPEI = $\Phi^{-1}(p)$
+>>>>
+>>>> - p=0.5 -> SPEI=0 (normal condition)
+>>>> - p=0.1 -> SPEI$\approx$-1.28 (drier than 90% of historical conditions)
+>>>> - p=0.9 -> SPEI$\approx$+1.28 (wetter than 90% of historical conditions)
+
+#### Wildfires
+
+Wildfires are another increasing extreme under climate change [^Jones2022][^Jones2024].
+
 Some observations for Figure [^Jones2024]:
 
 - The extent and severity change of forest fire:
@@ -168,33 +228,42 @@ Some observations for Figure [^Jones2024]:
 <summary><b>Figure. Bioclimatic variables and forest fire observations</b></summary>
 <figure>
   <p>
-    <img src="Figures/Notes/WildFire/science.adl5889-f4.jpg" alt="Description" width="400">
+    <img src="Figures/Notes/WildFire/science.adl5889-f4.jpg" alt="Description" width="800">
   </p>
   <figcaption><b>Figure. Bioclimatic variables and forest fire observations</b> Changes in bioclimatic variables and forest fire observations at ecoregion level (Jones et al., 2024). Fire weather index is an indicator for fire risk. It combines weather data (i.e., temperature, humidity, wind speed and 24-hour precipitation). FWI decreases with fuel moisture levels and increases with dry fuel availability. The baseline for A is the FWI from 1980 to 2009.</figcaption>
 </figure>
 </details>
 
-#### Some papers:
+##### Some papers:
 
 > Intro to **Jones et al., (2024)[^Jones2024]**: This paper analysis the correlation between different factor, both nature and human indicators, with forest burn area (BA) across the world. This paper reveals the complex causes of wildfire across different eco-regions. Climate change is an important influencer. For instance, decreased soil moisture increases the chance of wildfire and BA in most regions. The change in weather also increases BA. Beyond that, human activities also influence wildfire, in both positive and negative ways. For instance, in tropic forest in Amazon and Congo, the deforestation and increases the chance of wildfire, while in regions like southeast US and western US, fire management is helpful in reduce BA. More details in the paper.
+
+<details>
+<summary><b>Figure. Earth system trends</b></summary>
 <figure>
-  <img src="Figures/Notes/Social/10.1177_2053019614564785-fig3.jpg" alt="Description" width="600">
+  <p>
+    <img src="Figures/Notes/Social/10.1177_2053019614564785-fig3.jpg" alt="Description" width="600">
+  </p>
   <figcaption><b>Figure. Earth system trends</b> Trends from 1750 to 2010 in indicators for the structure and functioning of the Earth System. (Steffen et al., 2015).</figcaption>
 </figure>
+</details>
 <!---
 [Ref1]: https://www.science.org/doi/10.1126/science.adl5889 "Jones, M.W., Veraverbeke, S., Andela, N., Doerr, S.H., Kolden, C., Mataveli, G., Pettinari, M.L., Le Quéré, C., Rosan, T.M., van der Werf, G.R. and van Wees, D., 2024. Global rise in forest fire emissions linked to climate change in the extratropics. Science, 386(6719), p.eadl5889."
 --->
-
-## 
 
 ## Others
 
 ### Human activities changes in the past
 
+<details>
+<summary><b>Figure. socio-economic development</b></summary>
 <figure>
-  <img src="Figures/Notes/Social/10.1177_2053019614564785-fig1.jpg" alt="Description" width="400">
+  <p>
+    <img src="Figures/Notes/Social/10.1177_2053019614564785-fig1.jpg" alt="Description" width="400">
+  </p>
   <figcaption><b>Figure. socio-economic development</b> Trends from 1750 to 2010 in globally aggregated indicators for socio-economic development. (Steffen et al., 2015). The figure illustrates the "Great Acceleration" in human activities since the mid-20th century, highlighting key indicators such as population growth, economic activity, and resource consumption.</figcaption>
 </figure>
+</details>
 
 #### Some cases:
 > Intro to **Steffen et al., (2015)[^Steffen2015]**: This paper discusses the concept of the Anthropocene and the significant changes in human activities and their impact on the Earth system. It highlights the "Great Acceleration" in human activities since the mid-20th century, which has led to unprecedented changes in the environment, including climate change, biodiversity loss, and alterations to biogeochemical cycles.
@@ -217,15 +286,25 @@ RCPs is the abbreviation of Representative Concentration Pathways. They are gree
 - *Pathways*: are internally consistent sets of projections of the components of radiative forcing that are used in subsequent phases
 - *Concentration*: emphasizes that concentrations are used as the primary product of the RCPs, designed as input to climate models
 
+<details>
+<summary><b>Table. Overview of RCPs.</b></summary>
 <figure>
-  <img src="Figures\Notes\RCPs\RCPs.png" alt="Description" width="600">
+  <p>
+    <img src="Figures\Notes\RCPs\RCPs.png" alt="Description" width="600">
+  </p>
   <figcaption> <b>Table RCP1</b>.Overview of RCPs.</figcaption>
 </figure>
+</details>
 
+<details>
+<summary><b>Figure. IPCC relationships between the various groups</b></summary>
 <figure>
-  <img src="Figures\Notes\RCPs\IPCC_Structure.png" alt="Description" width="500">
+  <p>
+    <img src="Figures\Notes\RCPs\IPCC_Structure.png" alt="Description" width="500">
+  </p>
   <figcaption><b>Figure. IPCC relationships between the various groups</b> (Moss et al., 2008).</figcaption>
 </figure>
+</details>
 
 ##### Definition of RCPs from IPCC:  
 
@@ -251,6 +330,7 @@ Scenarios that include time series of emissions and concentrations of the full s
 5. There are uncertainties in the translation of emissions profiles to concentrations and radiative forcing. 
 
 #### Some cases:
+
 > Intro to **Moss et al., (2010)[^Moss2010]**: This paper give a introduction to the new generation of scenarios, including the rationales, history and brieft description of generation process. It also discusses the integration of RCPs with socio-economic scenarios, which are later developed into SSPs.
 
 > Intro to **Vuuren et al., (2011)[^Vuuren2011]**: This paper provides an detailed overview of the Representative Concentration Pathways (RCPs), including their development, characteristics, and applications in climate change research. 
@@ -304,3 +384,12 @@ SSPs have been developed to complement the Representative Concentration Pathways
 [^WMO2024]: [World Meteorological Organization, 2024. State of the Global Climate 2023](https://wmo.int/publication-series/state-of-global-climate-2023)
 [^GlaMBIE2025]: [The GlaMBIE Team. Community estimate of global glacier mass changes from 2000 to 2023. Nature 639, 382–388 (2025)](https://doi.org/10.1038/s41586-024-08545-z)
 [^Ohenhen2024]: [Ohenhen, L.O., Shirzaei, M., Ojha, C., Sherpa, S.F. and Nicholls, R.J., 2024. Disappearing cities on US coasts. Nature, 627(8002), pp.108-115.](https://www.nature.com/articles/s41586-024-07038-3#Sec6)
+[^Gebrechorkos2025]: [Gebrechorkos, S.H., Sheffield, J., Vicente-Serrano, S.M., Funk, C., Miralles, D.G., Peng, J., Dyer, E., Talib, J., Beck, H.E., Singer, M.B. and Dadson, S.J., 2025. Warming accelerates global drought severity. Nature, pp.1-8.](https://www.nature.com/articles/s41586-025-09047-2)
+[^Zhang2024]: [Zhang, W., Clark, R., Zhou, T., Li, L., Li, C., Rivera, J., Zhang, L., Gui, K., Zhang, T., Li, L. and Pan, R., 2024. 2023: Weather and climate extremes hitting the globe with emerging features.](https://link.springer.com/article/10.1007/s00376-024-4080-3)
+[^VanLoon2016]: [Van Loon, A.F., Gleeson, T., Clark, J., Van Dijk, A.I., Stahl, K., Hannaford, J., Di Baldassarre, G., Teuling, A.J., Tallaksen, L.M., Uijlenhoet, R. and Hannah, D.M., 2016. Drought in the Anthropocene. Nature Geoscience, 9(2), pp.89-91.](https://www.nature.com/articles/ngeo2646)
+[^Trenberth2014]: [Trenberth, K.E., Dai, A., Van Der Schrier, G., Jones, P.D., Barichivich, J., Briffa, K.R. and Sheffield, J., 2014. Global warming and changes in drought. Nature Climate Change, 4(1), pp.17-22.](https://www.nature.com/articles/nclimate2067)
+[^Beguería2014]: [Beguería, Santiago, Sergio M. Vicente‐Serrano, Fergus Reig, and Borja Latorre. "Standardized precipitation evapotranspiration index (SPEI) revisited: parameter fitting, evapotranspiration models, tools, datasets and drought monitoring." International journal of climatology 34, no. 10 (2014): 3001-3023.](https://rmets.onlinelibrary.wiley.com/doi/10.1002/joc.3887)
+[^Pendergrass2020]: [Pendergrass, A.G., Meehl, G.A., Pulwarty, R., Hobbins, M., Hoell, A., AghaKouchak, A., Bonfils, C.J., Gallant, A.J., Hoerling, M., Hoffmann, D. and Kaatz, L., 2020. Flash droughts present a new challenge for subseasonal-to-seasonal prediction. Nature Climate Change, 10(3), pp.191-199.](https://www.nature.com/articles/s41558-020-0709-0)
+[^Xing2023]: [Yuan, Xing, Yumiao Wang, Peng Ji, Peili Wu, Justin Sheffield, and Jason A. Otkin. "A global transition to flash droughts under climate change." Science 380, no. 6641 (2023): 187-191.](https://www.science.org/doi/10.1126/science.abn6301)
+[^AghaKouchak2021]:[AghaKouchak, A., Mirchi, A., Madani, K., Di Baldassarre, G., Nazemi, A., Alborzi, A., Anjileli, H., Azarderakhsh, M., Chiang, F., Hassanzadeh, E. and Huning, L.S., 2021. Anthropogenic drought: Definition, challenges, and opportunities.](https://agupubs-onlinelibrary-wiley-com.proxy2.library.illinois.edu/doi/full/10.1029/2019RG000683)
+[^Jones2022]: [Jones, M.W., Abatzoglou, J.T., Veraverbeke, S., Andela, N., Lasslop, G., Forkel, M., Smith, A.J., Burton, C., Betts, R.A., van der Werf, G.R. and Sitch, S., 2022. Global and regional trends and drivers of fire under climate change. Reviews of Geophysics, 60(3), p.e2020RG000726.](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020RG000726)
