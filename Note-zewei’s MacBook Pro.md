@@ -153,29 +153,9 @@ The sea level rise threatens coastal cities. For instance, increased inundation 
 
 ## Extremes
 
-Other aspects of climate change is the increasing frequency and intensity of extreme events, including drought, heatwaves, heavy precipitation/flooding, and wildfires. The direct causes of extreme are the changes of global and local temperature and precipitation patterns, which are influenced by climate change. Past studies has shown that the 1) annual hottest temperature. 2) annual coldest temperature, 3) annual maximum daily precipitation are increasing (IPCC WGI, 2021).
+Other aspects of climate change is the increasing frequency and intensity of extreme events, including drought, heatwaves, heavy precipitation/flooding, and wildfires. The direct causes of extreme are the changes of global and local temperature and precipitation patterns, which are influenced by climate change. Past studies has shown that the 1) annual hottest temperature. 2) annual coldest temperature, 3) annual maximum daily precipitation are increasing (IPCC). 
 
-<details>
-<summary><b>Figure. Trends over 1960–2018 for temperature extremes</b></summary>
-<figure>
-  <p>
-    <img src="Figures\Notes\ClimateExtreme\IPCC_min_max_temp.png" alt="Description" width="1000">
-  </p>
-  <figcaption><b>Figure. Trends over 1960–2018 for temperature extremes</b> (a) the annual maximum daily maximum temperature (TXx), (b) the annual minimum daily minimum temperature (TNn), and (c) the annual number of days when daily maximum temperature exceeds its 90th percentile from a base period of 1961–1990 (TX90p); based on the HadEX3 dataset (Dunn et al. , 2020). Linear trends are calculated only for grid points with at least 66% of the annual values over the period and which extend to at least 2009. Areas without sufficient data are shown in grey. No overlay indicates regions where the trends are significant at the p = 0.1 level. Crosses indicate regions where trends are not significant.</figcaption>
-</figure>
-</details>
-
-<details>
-<summary><b>Figure. Observed trends in annual maximum daily precipitation (Rx1day) during 1950–2018</b></summary>
-<figure>
-  <p>
-    <img src="Figures\Notes\ClimateExtreme\IPCC_max_p.png" alt="Description" width="1000">
-  </p>
-  <figcaption><b>Figure. Signs and significance of the observed trends in annual maximum daily precipitation (Rx1day) during 1950–2018 at 8345 stations with suficient data.</b>(a) Percentage of stations with statistically significant trends in Rx1day; green dots show positive trends and brown dots negative trends. Box and ‘whisker’ plots indicate the expected percentage of stations with significant trends due to chance estimated from 1000 bootstrap realizations under a no-trend null hypothesis. The boxes mark the median, 25th percentile, and 75th percentile. The upper and lower whiskers show the 97.5th and the 2.5th percentiles, respectively. Maps of stations with positive (b) and negative (c) trends. The light colour indicates stations with non-significant trends, and the dark colour stations with significant trends. Significance is determined by a two-tailed test conducted at the 5% level. Adapted from Sun et al. (2021).</figcaption>
-</figure>
-</details>
-
-Those "abstract" changes are manifested in more "direct", "sensible" extremes that accosciated with direct damages to both nature and human systems. Here is a figure showing several extremes in 2023 [^Zhang2024]. In this year, several places experienced record-breaking extreme events, including: Worst wildfire in Canada, Wildfire in Hawaii (the deadliest fire in the US in the past century), Madagascar experiencing the hottest Oct etc.
+Here is a figure showing several extremes in 2023 [^Zhang2024]. In this year, several places experienced record-breaking extreme events, including: Worst wildfire in Canada, Wildfire in Hawaii (the deadliest fire in the US in the past century), Madagascar experiencing the hottest Oct etc.
 <details>
 <summary><b>Figure. Extreme events in 2023</b></summary>
 <figure>
@@ -185,6 +165,10 @@ Those "abstract" changes are manifested in more "direct", "sensible" extremes th
   <figcaption><b>Figure. Extreme events in 2023</b></figcaption>
 </figure>
 </details>
+
+
+
+
 
 ### Droughts
 
@@ -262,9 +246,6 @@ Some observations for Figure [^Jones2024]:
 
 > Intro to **Jones et al., (2024)[^Jones2024]**: This paper analysis the correlation between different factor, both nature and human indicators, with forest burn area (BA) across the world. This paper reveals the complex causes of wildfire across different eco-regions. Climate change is an important influencer. For instance, decreased soil moisture increases the chance of wildfire and BA in most regions. The change in weather also increases BA. Beyond that, human activities also influence wildfire, in both positive and negative ways. For instance, in tropic forest in Amazon and Congo, the deforestation and increases the chance of wildfire, while in regions like southeast US and western US, fire management is helpful in reduce BA. More details in the paper.
 
-> Intro to **Jones et al., (2022)[^Jones2022]**: This paper is an indepth review of wild fire across the world, including the causes, trends, and impacts. It is a nice complement to Jones et al., (2024).
->
-
 <details>
 <summary><b>Figure. Earth system trends</b></summary>
 <figure>
@@ -277,10 +258,6 @@ Some observations for Figure [^Jones2024]:
 <!---
 [Ref1]: https://www.science.org/doi/10.1126/science.adl5889 "Jones, M.W., Veraverbeke, S., Andela, N., Doerr, S.H., Kolden, C., Mataveli, G., Pettinari, M.L., Le Quéré, C., Rosan, T.M., van der Werf, G.R. and van Wees, D., 2024. Global rise in forest fire emissions linked to climate change in the extratropics. Science, 386(6719), p.eadl5889."
 --->
-
-### Flooding
-
-
 
 ## Others
 
