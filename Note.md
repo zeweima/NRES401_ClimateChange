@@ -31,6 +31,7 @@
 - [Climate Reanalyzer | Climate Reanalyzer](https://climatereanalyzer.org/)
 - [World Glacier Monitoring Service | WGMS](https://wgms.ch/)
 - [Understanding Shared Socio-economic Pathways (SSPs) | Climate Data Canada](https://climatedata.ca/resource/understanding-shared-socio-economic-pathways-ssps/)
+
 ## Signs of climate change
 
 There are multiple signs suggest climate change is happening, two of types of them are: long-term change and extreme events.
@@ -42,7 +43,10 @@ By 2024, the global mean surface temperature has risen by 1.45°C compared with 
 <details>
 <summary><b>Figure. Global temperature rise</b></summary>
 <figure>
+  <p>
   <img src="Figures/Notes/Temperature/GlobalTemperature.png" alt="Description" width="700">
+  </p>
+
   <figcaption><b>Figure. Global temperature rise</b> Trends in global surface temperature from 1880 to 2023. (WMO, 2024)[^WMO2024].</figcaption>
 </figure>
 </details>
@@ -53,6 +57,7 @@ By 2024, the global mean surface temperature has risen by 1.45°C compared with 
   <p>
     <img src="Figures/Notes/Temperature/GlobalTemperatureHistory.png" alt="Global temperature history" width="800">
   </p>
+
   <figcaption>
     <b>Figure. Global temperature history</b> The temperature has now reached a new point compared to the Holocene.
   </figcaption>
@@ -62,17 +67,35 @@ By 2024, the global mean surface temperature has risen by 1.45°C compared with 
 <details>
 <summary><b>Figure. Sea surface temperature</b></summary>
 <figure>
+  <p>
   <img src="Figures/Notes/Temperature/SeaSurfaceTemperature.png" alt="Description" width="800">
+  </p>
   <figcaption><b>Figure. Sea surface temperature history</b> The sea surface temperature reached a new record since 2023, compared with previous years. (https://climatereanalyzer.org/clim/sst_daily/?dm_id=world2)</figcaption>
 </figure>
 </details>
 
 ### Ice melt
 
+The climate change also causes the ice sheet melt. A community estimation of global glacier mass change (except for Greenland and Antarctic icesheets) from 2000 to 2023 reduces 5.4% of the total mass [^GlaMBIE2025].
+
+The Arctic and Antarctic sea ice extent are two major ice sheets in the earth that are influenced by climate change. The monitoring data shows that both ice sheets are shrinking, and the ice extent reaches new low records in recent years.
+
+<details>
+<summary><b>Figure. Global glacier mass changes from 2000 to 2023</b></summary>
+<figure>
+  <p>
+  <img src="Figures/Notes/IceSheet/41586_2024_8545_Fig1_HTML.webp" alt="Description" width="800">
+  </p>
+  <figcaption><b>Figure. Global glacier mass changes</b> (The GlaMBIE Team, 2025)[^GlaMBIE2025]. Greenland and Antarctic icesheets are not included into the analysis</figcaption>
+</figure>
+</details>
+
 <details>
 <summary><b>Figure. Arctic sea ice extent</b></summary>
 <figure>
+  <p>
   <img src="Figures/Notes/IceSheet/C3S_Bulletin_seaice_202503_Fig2_Arctic_daily_extent.png" alt="Description" width="800">
+  </p>
   <figcaption><b>Figure. Arctic sea ice extent</b> (https://climate.copernicus.eu/sea-ice-cover-march-2025)</figcaption>
 </figure>
 </details>
@@ -80,10 +103,49 @@ By 2024, the global mean surface temperature has risen by 1.45°C compared with 
 <details>
 <summary><b>Figure. Antarctic sea ice extent</b></summary>
 <figure>
+  <p>
   <img src="Figures/Notes/IceSheet/C3S_Bulletin_seaice_202503_Fig5_Antarctic_daily_extent.png" alt="Description" width="800">
-  <figcaption><b>Figure. Antarctic sea ice extent</b> (https://climate.copernicus.eu/sea-ice-cover-march-2025)</figcaption>
+  </p>
+
+  <figcaption><b>Antarctic sea ice extent</b> (https://climate.copernicus.eu/sea-ice-cover-march-2025)</figcaption>
 </figure>
 </details>
+
+#### Some papers:
+
+> Intro to **The GlaMBIE Team (2025)[^GlaMBIE2025]**: This paper presents a community estimate of global glacier mass changes from 2000 to 2023, revealing a significant reduction in glacier mass over this period. The study highlights the ongoing impact of climate change on glaciers worldwide. This paper also provides valuable data for understanding the contribution of glacier melt to sea-level rise.
+
+### Sea level rise
+
+Glacial and ice sheet melt directly leads to sea level rise. Since 1993, the global mean sea level has risen by ~10 cm, and the rate of rise has accelerated in 2024 (NASA, 2024).
+
+The sea level rise threatens coastal cities. For instance, increased inundation risks, as shown in Ohenhen et al., (2024)[^Ohenhen2024].
+
+<details>
+<summary><b>Figure. Sea level rise since 1993</b></summary>
+<figure>
+  <p>
+  <img src="Figures/Notes/SeaLevelRise/e1-pia26189-slr-update-2024.webp" alt="Description" width="800">
+  </p>
+  <figcaption><b>Figure. global mean sea level (in blue) since 1993</b> (<a href="https://www.nasa.gov/missions/jason-cs-sentinel-6/sentinel-6-michael-freilich/nasa-analysis-shows-unexpected-amount-of-sea-level-rise-in-2024/#:~:text=Global%20sea%20level%20rose%20faster,(0.43%20centimeters)%20per%20year.">TNASA Analysis Shows Unexpected Amount of Sea Level Rise in 2024</a>)</figcaption>
+</figure>
+</details>
+
+<details>
+<summary><b>Figure. Inundation maps for cities on the US Atlantic coast.</b></summary>
+<figure>
+  <p>
+  <img src="Figures/Notes/SeaLevelRise/41586_2024_7038_Fig2_HTML.webp" alt="Description" width="800">
+  </p>
+  <figcaption><b>Figure. Inundation maps for cities on the US Atlantic coast.</b> (Ohenhen et al., 2024) </figcaption>
+</figure>
+</details>
+
+#### Paper and Articles:
+
+> Intro to Ohenhen et al., (2024)[^Ohenhen2024]: This paper present the impact of sea level rise on coastal cities (inundation) in the US, including present (2020) and a projection (2050).
+
+> [NASA Analysis Shows Unexpected Amount of Sea Level Rise in 2024 | NASA](https://www.nasa.gov/missions/jason-cs-sentinel-6/sentinel-6-michael-freilich/nasa-analysis-shows-unexpected-amount-of-sea-level-rise-in-2024/#:~:text=Global%20sea%20level%20rose%20faster,(0.43%20centimeters)%20per%20year.)
 
 ### Wildfires
 <!---
@@ -240,3 +302,5 @@ SSPs have been developed to complement the Representative Concentration Pathways
 [^Vuuren2011]: [Van Vuuren, D.P., Edmonds, J., Kainuma, M., Riahi, K., Thomson, A., Hibbard, K., Hurtt, G.C., Kram, T., Krey, V., Lamarque, J.F. and Masui, T., 2011. The representative concentration pathways: an overview. Climatic change, 109(1), p.5.](https://link.springer.com/article/10.1007/s10584-011-0148-z)
 [^Moss2008]: [Moss, R.H., Babiker, M., Brinkman, S., Calvo, E., Carter, T., Edmonds, J.A., Elgizouli, I., Emori, S., Lin, E., Hibbard, K. and Jones, R., 2008. Towards new scenarios for analysis of emissions, climate change, impacts, and response strategies.](https://archive.ipcc.ch/pdf/supporting-material/expert-meeting-report-scenarios.pdf)
 [^WMO2024]: [World Meteorological Organization, 2024. State of the Global Climate 2023](https://wmo.int/publication-series/state-of-global-climate-2023)
+[^GlaMBIE2025]: [The GlaMBIE Team. Community estimate of global glacier mass changes from 2000 to 2023. Nature 639, 382–388 (2025)](https://doi.org/10.1038/s41586-024-08545-z)
+[^Ohenhen2024]: [Ohenhen, L.O., Shirzaei, M., Ojha, C., Sherpa, S.F. and Nicholls, R.J., 2024. Disappearing cities on US coasts. Nature, 627(8002), pp.108-115.](https://www.nature.com/articles/s41586-024-07038-3#Sec6)
