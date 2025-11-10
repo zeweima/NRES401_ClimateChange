@@ -3,3 +3,5 @@ Materials/
 *.pptx
 *.nc
 *.docx
+
+.DS_Store
