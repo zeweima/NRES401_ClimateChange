@@ -1,4 +1,12 @@
-# Overall question
+<!--
+  Title: Class notes on Climate Change
+  Author: Zewei Ma
+  Date: 2025-11-01
+-->
+
+# Climate Change Notes
+
+## Overall question
 
 - Question 1: What is climate change, and are there any signs suggest it is happening (What has happened and is happening)?
 - Question 2: What are the causes of climate change and the role of human behavior?
@@ -6,9 +14,9 @@
 - Question 4: What are RCPs and SSPs in climate change research, and how do they differ? How are they used to model future climate scenarios in IPCC?
 - Question 5: What are going to happen in the future?
 
-# Some links
+## Some links
 
-## Online videos
+### Online videos
 
 - [AR6 Synthesis Report: Climate Change 2023 | IPCC](https://www.youtube.com/watch?v=YIFCSZYU2LM)
 - [Nobel Prize lecture: Syukuro Manabe, Nobel Prize in physics 2021](https://www.youtube.com/watch?v=-VNKJ2IbRoo&list=PPSV)
@@ -22,7 +30,7 @@
 - [The carbon cycle is key to understanding climate change | The Economist](https://www.youtube.com/watch?v=yhlg9txl7yM)
 - [Climate Change Adaptation and Future Climate Projection | CCCA](https://www.youtube.com/watch?v=8jhSHm7qjBg)
 
-## Other links
+### Other links
 
 - [NASA climate change | NASA](https://science.nasa.gov/climate-change/)
 - [NASA climate change primer | NASA](https://climateprimer.org/)
@@ -36,11 +44,12 @@
 - [How do hurricanes or typhoons form and are they getting stronger? | BBC](https://www.bbc.com/news/articles/cz913gxlw3jo)
 - [Global Warming and Hurricanes | GTFL](https://www.gfdl.noaa.gov/global-warming-and-hurricanes/#:~:text=Tropical%20cyclone%20intensities%20globally%20are,of%20all%20tropical%20cyclones%20combined.)
 - [Tornado Plots for Illinois | Illinos state water survey](https://stateclimatologist.web.illinois.edu/tornado-plots-for-illinois/#:~:text=Tornadoes%2C%20Fatalities%2C%20and%20Injuries%20by%20F%2DScale,EF%2D3%20and%20weaker%20tornadoes.)
-# Signs of climate change
+
+## Signs of climate change
 
 There are multiple signs suggest climate change is happening, two of types of them are: long-term change and extreme events.
 
-## Temperature rise
+### Temperature rise
 
 By 2024, the global mean surface temperature has risen by 1.45°C compared with the pre-industrial level (1850-1900 average) [^WMO2024]. Recently, the warming rate accelerated.
 
@@ -50,7 +59,6 @@ By 2024, the global mean surface temperature has risen by 1.45°C compared with 
   <p>
   <img src="Figures/Notes/Temperature/GlobalTemperature.png" alt="Description" width="700">
   </p>
-
   <figcaption><b>Figure. Global temperature rise</b> Trends in global surface temperature from 1880 to 2023. (WMO, 2024)[^WMO2024].</figcaption>
 </figure>
 </details>
@@ -61,7 +69,6 @@ By 2024, the global mean surface temperature has risen by 1.45°C compared with 
   <p>
     <img src="Figures/Notes/Temperature/GlobalTemperatureHistory.png" alt="Global temperature history" width="800">
   </p>
-
   <figcaption>
     <b>Figure. Global temperature history</b> The temperature has now reached a new point compared to the Holocene.
   </figcaption>
@@ -78,7 +85,7 @@ By 2024, the global mean surface temperature has risen by 1.45°C compared with 
 </figure>
 </details>
 
-## Ice melt
+### Ice melt
 
 The climate change also causes the ice sheet melt. A community estimation of global glacier mass change (except for Greenland and Antarctic icesheets) from 2000 to 2023 reduces 5.4% of the total mass [^GlaMBIE2025].
 
@@ -110,16 +117,15 @@ The Arctic and Antarctic sea ice extent are two major ice sheets in the earth th
   <p>
   <img src="Figures/Notes/IceSheet/C3S_Bulletin_seaice_202503_Fig5_Antarctic_daily_extent.png" alt="Description" width="800">
   </p>
-
   <figcaption><b>Antarctic sea ice extent</b> (https://climate.copernicus.eu/sea-ice-cover-march-2025)</figcaption>
 </figure>
 </details>
 
-### Some papers:
+#### Some papers:
 
 > Intro to **The GlaMBIE Team (2025)[^GlaMBIE2025]**: This paper presents a community estimate of global glacier mass changes from 2000 to 2023, revealing a significant reduction in glacier mass over this period. The study highlights the ongoing impact of climate change on glaciers worldwide. This paper also provides valuable data for understanding the contribution of glacier melt to sea-level rise.
 
-## Sea level rise
+### Sea level rise
 
 Glacial and ice sheet melt directly leads to sea level rise. Since 1993, the global mean sea level has risen by ~10 cm, and the rate of rise has accelerated in 2024 (NASA, 2024).
 
@@ -145,13 +151,13 @@ The sea level rise threatens coastal cities. For instance, increased inundation 
 </figure>
 </details>
 
-### Paper and Articles:
+#### Paper and Articles:
 
 > Intro to Ohenhen et al., (2024)[^Ohenhen2024]: This paper present the impact of sea level rise on coastal cities (inundation) in the US, including present (2020) and a projection (2050).
 
 > [NASA Analysis Shows Unexpected Amount of Sea Level Rise in 2024 | NASA](https://www.nasa.gov/missions/jason-cs-sentinel-6/sentinel-6-michael-freilich/nasa-analysis-shows-unexpected-amount-of-sea-level-rise-in-2024/#:~:text=Global%20sea%20level%20rose%20faster,(0.43%20centimeters)%20per%20year.)
 
-## Extremes
+### Extremes
 
 Other aspects of climate change is the increasing frequency and intensity of extreme events, including drought, heatwaves, heavy precipitation/flooding, and wildfires. The direct causes of extreme are the changes of global and local temperature and precipitation patterns, which are influenced by climate change. Past studies has shown that the 1) annual hottest temperature. 2) annual coldest temperature, 3) annual maximum daily precipitation are increasing (IPCC WGI, 2021).
 
@@ -176,6 +182,7 @@ Other aspects of climate change is the increasing frequency and intensity of ext
 </details>
 
 Those "abstract" changes are manifested in more "direct", "sensible" extremes that accosciated with direct damages to both nature and human systems. Here is a figure showing several extremes in 2023 [^Zhang2024]. In this year, several places experienced record-breaking extreme events, including: Worst wildfire in Canada, Wildfire in Hawaii (the deadliest fire in the US in the past century), Madagascar experiencing the hottest Oct etc.
+
 <details>
 <summary><b>Figure. Extreme events in 2023</b></summary>
 <figure>
@@ -186,7 +193,7 @@ Those "abstract" changes are manifested in more "direct", "sensible" extremes th
 </figure>
 </details>
 
-### Droughts
+#### Droughts
 
 IPCC (fourth assessment report, I followed Trenberth et al., 2014's work) give a definitions: drought is defined as a 'prolonged absence or marked deficiency of precipitation', a 'deficiency of precipitation that results in water shortage for some activity or for some group' or a 'period of abnormally dry weather sufficiently prolonged for the lack of precipitation to cause a serious hydrological imbalance' [^Trenberth2014][^AghaKouchak2021]. From which, we could see that different groups/use cases may concerns different aspects of drought. Thus, the detection and identification of drought may depend on the definitions used. One widely used index is the standardized precipitation evapotranspiration index (SPEI), in which both precipitation and temperature (potential evapotranspiration) are considered, and it also contains the time scale information. From a recent publication by Gebrechorkos et al., (2025)[^Gebrechorkos2025], we could see an increasing trend in droughts globally from 1981 to 2022, as shown in the figure below.
 
@@ -202,7 +209,7 @@ IPCC (fourth assessment report, I followed Trenberth et al., 2014's work) give a
 
 Beyond that, recently studies pay special attention to "flash drought", characterized by rapid onset and intensification, often linked to extreme heat and low soil moisture [^Pendergrass2020][^Xing2023]. One example is the 2012 US flash drought in the Midwest region, which caused significant agricultural losses. Its mechanism and predictions remain an active research area.
 
-#### Some papers
+##### Some papers
 
 > Intro to **Van Loon et al., (2016)[^VanLoon2016]**: A perspective to call for combining nature aspects and human aspects in drought management.
 
@@ -231,7 +238,7 @@ Beyond that, recently studies pay special attention to "flash drought", characte
 >>>> - p=0.1 -> SPEI$\approx$-1.28 (drier than 90% of historical conditions)
 >>>> - p=0.9 -> SPEI$\approx$+1.28 (wetter than 90% of historical conditions)
 
-### Wildfires
+#### Wildfires
 
 Wildfire is a natural process that shapes the earth system. Under climate change, the frequency and extent of wildfires are increasing in many regions. Some of those were beyond the "normal" conditions and causing significant ecological, economic, and social impacts [^Jones2022][^Jones2024]. For instance, the 2023 Canada wildfire and 2020 Australia wildfires.
 
@@ -258,12 +265,38 @@ Some observations for Figure [^Jones2024]:
 </figure>
 </details>
 
-#### Some papers:
+##### Some papers:
 
 > Intro to **Jones et al., (2024)[^Jones2024]**: This paper analysis the correlation between different factor, both nature and human indicators, with forest burn area (BA) across the world. This paper reveals the complex causes of wildfire across different eco-regions. Climate change is an important influencer. For instance, decreased soil moisture increases the chance of wildfire and BA in most regions. The change in weather also increases BA. Beyond that, human activities also influence wildfire, in both positive and negative ways. For instance, in tropic forest in Amazon and Congo, the deforestation and increases the chance of wildfire, while in regions like southeast US and western US, fire management is helpful in reduce BA. More details in the paper.
 
 > Intro to **Jones et al., (2022)[^Jones2022]**: This paper is an indepth review of wild fire across the world, including the causes, trends, and impacts. It is a nice complement to Jones et al., (2024).
 >
+
+#### Flooding
+
+River flooding is another extreme that affects human societies significantly. Its causes are complex, including large weather systems, local topography, river network, etc. Though climate change increases the frequency and magnitude of heavy precipitation events, its direct connection to flooding remains uncertain due to the complex mechanisms of flooding generation and human interventions (e.g., flood control infrastructure) [^Hirabayashi2013][^Merz2021]. Similarly to drought, it is hard to define flooding due. For instance, river discharge varies significantly across different regions. Flooding with same frequency may have different impacts in different regions due to the different vulnerability and exposure of human systems. With the increasing mangement engineering works, its occurence may also be significantly changes, for instance the dam and reservoirs, especially large onse (e.g., Three Gorges Dam in China) may significantly change the flooding regime downstream. The following figure from Merz et al., (2019)[^Merz2021] shows the observed trends in flooding and its impacts (a. trends in annual maximum flow; b. trends in number of people affected by disastrous floods). We could see that the trends in maxmimum flooding exhibit large spatial heterogeneity. Only some parts of west Europe, South America,and east Asia show increasing trends, and other regions show decreasing trends or no significant trends. However, the number of people affected by disastrous floods increases in most regions, which might due to 1) population growth in floodplains; 2) increasing chance of extreme flooding events.
+
+<details>
+<summary><b>Figure. Observed flooding-related trends</b></summary>
+<figure>
+  <p>
+    <img src="Figures/Notes/ClimateExtreme/Flooding.png" alt="Description" width="600">
+  </p>
+  <figcaption><b>Figure. Observed flooding-related trends</b> a | Observed trends in annual maximum flow in the past decades based on large- scale trend studies. These trends mostly relate to small floods and might not always be representative of extreme floods. The circles and ellipses represent regions where large- scale trend studies are available and do not necessarily correspond to river basins or administrative units. The trend classification (colours in key) is based on a qualitative assessment, including the availability of large- scale trend studies, the strength and significance of detected trends and the regional coherence of trends. For each region, the specific references and their main findings are given in the Supplementary Information. b | Trends in number of people affected by disastrous floods during 1977–2019. Data, based on EmDAT (2020)172, are not normalized by population growth. Trends (% change per decade) are given as Sen’s slope228 on a country basis. Countries with little data are plotted in grey. The criterion for a country to be plotted is that at least 15 events occurred in at least 5 different years, with a minimum interval of 20 years between the first and last event. The mismatch between trend patterns in hazard and impact suggests that population growth in river floodplains has been a major driver for the increasing number of flood- affected people over the past four decades. (Blöschl2019 et al., 2015).</figcaption>
+</figure>
+</details>
+
+##### Some papers:
+
+> Intro to **Merz et al., (2024)[^Merz2021]**: This paper give a comprehensive review of flooding, mainly disastrous flooding, research, including the causes, trends, social impact, and future projections.
+
+## The causes of climate change and the role of human behavior
+
+
+### Others
+
+#### Human activities changes in the past
+
 
 <details>
 <summary><b>Figure. Earth system trends</b></summary>
@@ -274,17 +307,6 @@ Some observations for Figure [^Jones2024]:
   <figcaption><b>Figure. Earth system trends</b> Trends from 1750 to 2010 in indicators for the structure and functioning of the Earth System. (Steffen et al., 2015).</figcaption>
 </figure>
 </details>
-<!---
-[Ref1]: https://www.science.org/doi/10.1126/science.adl5889 "Jones, M.W., Veraverbeke, S., Andela, N., Doerr, S.H., Kolden, C., Mataveli, G., Pettinari, M.L., Le Quéré, C., Rosan, T.M., van der Werf, G.R. and van Wees, D., 2024. Global rise in forest fire emissions linked to climate change in the extratropics. Science, 386(6719), p.eadl5889."
---->
-
-### Flooding
-
-
-
-## Others
-
-### Human activities changes in the past
 
 <details>
 <summary><b>Figure. socio-economic development</b></summary>
@@ -296,12 +318,12 @@ Some observations for Figure [^Jones2024]:
 </figure>
 </details>
 
-#### Some cases:
+##### Some cases:
 > Intro to **Steffen et al., (2015)[^Steffen2015]**: This paper discusses the concept of the Anthropocene and the significant changes in human activities and their impact on the Earth system. It highlights the "Great Acceleration" in human activities since the mid-20th century, which has led to unprecedented changes in the environment, including climate change, biodiversity loss, and alterations to biogeochemical cycles.
 
-## IPCC report
+### IPCC report
 
-### Scenarios in climate change research
+#### Scenarios in climate change research
 
 The rationale of scenarios are:
 
@@ -309,7 +331,7 @@ The rationale of scenarios are:
 2. Scenarios help in understanding the potential impacts of different policy choices and actions on climate change.
 3. They facilitate communication and decision-making among policymakers, researchers, and the public by providing a common framework for discussing future climate change.
 
-#### RCPs
+##### RCPs
 
 RCPs is the abbreviation of Representative Concentration Pathways. They are greenhouse gas concentration (not emissions) trajectories adopted by the IPCC for its fifth Assessment Report (AR5) in 2014. There are four RCPs: RCP2.6, RCP4.5, RCP6, and RCP8.5. The numbers refer to the possible range of radiative forcing values in the year 2100 relative to pre-industrial values (+2.6, +4.5, +6.0, and +8.5 W/m², respectively) [^Moss2010][^Vuuren2011].
 
@@ -337,7 +359,7 @@ RCPs is the abbreviation of Representative Concentration Pathways. They are gree
 </figure>
 </details>
 
-##### Definition of RCPs from IPCC:  
+###### Definition of RCPs from IPCC:  
 
 Scenarios that include time series of emissions and concentrations of the full suite of greenhouse gases (GHGs) and aerosols and chemically active gases, as well as land use/land cover (Moss et al. 2010). The word representative signifies that each RCP provides only one of many possible scenarios that would lead to the specific radiative forcing characteristics. The term pathway emphasises that not only the long-term concentration levels are of interest, but also the trajectory taken over time to reach that outcome (Moss et al. 2010). RCPs usually refer to the portion of the concentration pathway extending up to 2100, for which integrated assessment models produced corresponding emission scenarios. Extended concentration pathways describe extensions of the RCPs from 2100 to 2300 that were calculated using simple rules generated by stakeholder consultations, and do not represent fully consistent scenarios. Four RCPs produced from integrated assessment models were selected from the published literature and used in the Fifth IPCC Assessment, and are also used in this Assessment for comparison, spanning the range from approximately below 2°C warming to high (>4°C) warming best-estimates by the end of the 21st century: RCP2.6, RCP4.5 and RCP6.0 and RCP8.5.
 
@@ -360,13 +382,13 @@ Scenarios that include time series of emissions and concentrations of the full s
 4. The socioeconomic scenarios underlying the RCPs cannot be treated as a set with an overarching internal logic.
 5. There are uncertainties in the translation of emissions profiles to concentrations and radiative forcing. 
 
-#### Some cases:
+##### Some cases:
 
 > Intro to **Moss et al., (2010)[^Moss2010]**: This paper give a introduction to the new generation of scenarios, including the rationales, history and brieft description of generation process. It also discusses the integration of RCPs with socio-economic scenarios, which are later developed into SSPs.
 
 > Intro to **Vuuren et al., (2011)[^Vuuren2011]**: This paper provides an detailed overview of the Representative Concentration Pathways (RCPs), including their development, characteristics, and applications in climate change research. 
 
-#### SSPs
+##### SSPs
 
 The RCPs gives the possible trajectrories of forcing (greenhouse gas concentrations) to a certain level of radiative forcing in 2100. However, they do not provide information about the socio-economic conditions that lead to these trajectories. Therefore, Shared Socioeconomic Pathways (SSPs) were developed to fill this gap. SSPs are scenarios that describe different pathways of socio-economic development, including factors such as population growth, economic development, technological progress, and environmental policies [^Moss2010][^Riahi2017]. The purpose of SSPs is to provide broad descriptions of future conditions that are relevant for both the analysis of emissions
 drivers and mitigation strategies, and the analysis of societal vulnerability to climate change, climate impacts and potential adaptation measures [^ONeill2017]].
@@ -393,17 +415,17 @@ SSPs are the input for the integrated assessment models.
 </figure>
 </details>
 
-##### Definition of SSPs from IPCC
+###### Definition of SSPs from IPCC
 SSPs have been developed to complement the Representative Concentration Pathways (RCPs). By design, the RCP emission and concentration pathways were stripped of their association with a certain socio-economic development. Different levels of emissions and climate change along the dimension of the RCPs can hence be explored against the backdrop of different socio-economic development pathways (SSPs) on the other dimension in a matrix. This integrative SSP-RCP framework is now widely used in the climate impact and policy analysis literature, where climate projections obtained under the RCP scenarios are analysed against the backdrop of various SSPs. As several emission updates were due, a new set of emission scenarios was developed in conjunction with the SSPs. Hence, the abbreviation SSP is now used for two things: On the one hand SSP1, SSP2, …, SSP5 are used to denote the five socio-economic scenario families. On the other hand, the abbreviations SSP1‑1.9, SSP1‑2.6, …, SSP5‑8.5 are used to denote the newly developed emission scenarios that are the result of an SSP implementation within an integrated assessment model. Those SSP scenarios are bare of climate policy assumption, but in combination with so-called shared policy assumptions (SPAs), various approximate radiative forcing levels of 1.9, 2.6, …, or 8.5 W m–2 are reached by the end of the century, respectively.
 
-#### Some papers:
+##### Some papers:
 
 > Intro to **O'Neill et al., (2017)[^ONeill2017]**: This paper give an overview of the Shared Socioeconomic Pathways (SSPs), including the rationales, intro to its development process, and high-level narratives for each SSP, the summary of the assumptions for 1) demographic and human development elements, 2) Economy & Lifestyle and Policies & Institutions elements, 3) Technology and Environment & Natural Resources elements.
 > > **Example narrative for SSP3**: "A resurgent nationalism, concerns about competitiveness and security, and regional conflicts push countries to increasingly focus on domestic or, at most, regional issues. This trend is reinforced by the limited number of comparatively weak global institutions, with uneven coordination and cooperation for addressing environmental and other global concerns. Policies shift over time to become increasingly oriented toward national and regional security issues, including barriers to trade, particularly in the energy resource and agricultural markets. Countries focus on achieving energy and food security goals within their own regions at the expense of broader-based development, and in several regions move toward more authoritarian forms of government with highly regulated economies. Investments in education and technological development decline. Economic development is slow, consumption is material-intensive, and inequalities persist or worsen over time, especially in developing countries. There are pockets of extreme poverty alongside pockets of moderate wealth, with many countries struggling to maintain living standards and provide access to safe water, improved sanitation, and health care for disadvantaged populations. A low international priority for addressing environmental concerns leads to strong environmental degradation in some regions. The combination of impeded development and limited environmental concern results in poor progress toward sustainability. Population growth is low in industrialized and high in developing countries. Growing resource intensity and fossil fuel dependency along with difficulty in achieving international cooperation and slow technological change imply high challenges to mitigation. The limited progress on human development, slow income growth, and lack of effective institutions, especially those that can act across regions, implies high challenges to adaptation for many groups in all regions."
 
 > Intro to **Riahi et al., (2017)[^Riahi2017]**: This paper presents the overview of the Shared Socioeconomic Pathways (SSPs) and their energy, land use, and emissions implications.
 
-# References:
+## References
 
 [^Jones2024]: [Jones, M.W., Veraverbeke, S., Andela, N., Doerr, S.H., Kolden, C., Mataveli, G., Pettinari, M.L., Le Quéré, C., Rosan, T.M., van der Werf, G.R. and van Wees, D., 2024. Global rise in forest fire emissions linked to climate change in the extratropics. Science, 386(6719), p.eadl5889.](https://www.science.org/doi/10.1126/science.adl5889)
 [^Steffen2015]: [Steffen, W., Broadgate, W., Deutsch, L., Gaffney, O. and Ludwig, C., 2015. The trajectory of the Anthropocene: the great acceleration. The anthropocene review, 2(1), pp.81-98.](https://journals.sagepub.com/doi/10.1177/2053019614564785)
@@ -424,3 +446,5 @@ SSPs have been developed to complement the Representative Concentration Pathways
 [^Xing2023]: [Yuan, Xing, Yumiao Wang, Peng Ji, Peili Wu, Justin Sheffield, and Jason A. Otkin. "A global transition to flash droughts under climate change." Science 380, no. 6641 (2023): 187-191.](https://www.science.org/doi/10.1126/science.abn6301)
 [^AghaKouchak2021]:[AghaKouchak, A., Mirchi, A., Madani, K., Di Baldassarre, G., Nazemi, A., Alborzi, A., Anjileli, H., Azarderakhsh, M., Chiang, F., Hassanzadeh, E. and Huning, L.S., 2021. Anthropogenic drought: Definition, challenges, and opportunities.](https://agupubs-onlinelibrary-wiley-com.proxy2.library.illinois.edu/doi/full/10.1029/2019RG000683)
 [^Jones2022]: [Jones, M.W., Abatzoglou, J.T., Veraverbeke, S., Andela, N., Lasslop, G., Forkel, M., Smith, A.J., Burton, C., Betts, R.A., van der Werf, G.R. and Sitch, S., 2022. Global and regional trends and drivers of fire under climate change. Reviews of Geophysics, 60(3), p.e2020RG000726.](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020RG000726)
+[^Hirabayashi2013]: [Hirabayashi, Yukiko, Roobavannan Mahendran, Sujan Koirala, Lisako Konoshima, Dai Yamazaki, Satoshi Watanabe, Hyungjun Kim, and Shinjiro Kanae. "Global flood risk under climate change." Nature climate change 3, no. 9 (2013): 816-821.](https://www.nature.com/articles/nclimate1911)
+[^Merz2021]: [Merz, B., Blöschl, G., Vorogushyn, S., Dottori, F., Aerts, J.C., Bates, P., Bertola, M., Kemter, M., Kreibich, H., Lall, U. and Macdonald, E., 2021. Causes, impacts and patterns of disastrous river floods. Nature Reviews Earth & Environment, 2(9), pp.592-609.](https://www.nature.com/articles/s43017-021-00195-3)
