@@ -13,6 +13,7 @@
 - Question 3: What are the differences and connections between climate change and global warming?
 - Question 4: What are RCPs and SSPs in climate change research, and how do they differ? How are they used to model future climate scenarios in IPCC?
 - Question 5: What are going to happen in the future?
+- Question 6: What is GCMs, CMs, IAMs, ESMs? How do they work together to help us understand climate change?
 
 ## Some links
 
@@ -291,6 +292,9 @@ River flooding is another extreme that affects human societies significantly. It
 > Intro to **Merz et al., (2024)[^Merz2021]**: This paper give a comprehensive review of flooding, mainly disastrous flooding, research, including the causes, trends, social impact, and future projections.
 
 ## The causes of climate change and the role of human behavior
+
+# The energy balance of the earth system
+
 
 
 ### Others
