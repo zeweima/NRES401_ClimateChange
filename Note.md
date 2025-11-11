@@ -45,7 +45,10 @@
 - [How do hurricanes or typhoons form and are they getting stronger? | BBC](https://www.bbc.com/news/articles/cz913gxlw3jo)
 - [Global Warming and Hurricanes | GTFL](https://www.gfdl.noaa.gov/global-warming-and-hurricanes/#:~:text=Tropical%20cyclone%20intensities%20globally%20are,of%20all%20tropical%20cyclones%20combined.)
 - [Tornado Plots for Illinois | Illinos state water survey](https://stateclimatologist.web.illinois.edu/tornado-plots-for-illinois/#:~:text=Tornadoes%2C%20Fatalities%2C%20and%20Injuries%20by%20F%2DScale,EF%2D3%20and%20weaker%20tornadoes.)
-
+- [Causes of Climate Change | EPA](https://www.epa.gov/climatechange-science/causes-climate-change)
+- [Climate Change Evidence and Causes: Update 2020 | The National Academy of Sciences; The Royal Society](https://nap.nationalacademies.org/catalog/25733/climate-change-evidence-and-causes-update-2020)
+- [What causes the Earth's climate to change? | British Geological Survey](https://www.bgs.ac.uk/discovering-geology/climate-change/what-causes-the-earths-climate-to-change/)
+- [Has volcanic activity been increasing? | Smithsonian Institution](https://volcano.si.edu/faq/index.cfm?question=historicalactivity)
 ## Signs of climate change
 
 There are multiple signs suggest climate change is happening, two of types of them are: long-term change and extreme events.
@@ -54,7 +57,7 @@ There are multiple signs suggest climate change is happening, two of types of th
 
 By 2024, the global mean surface temperature has risen by 1.45°C compared with the pre-industrial level (1850-1900 average) [^WMO2024]. Recently, the warming rate accelerated.
 
-<details>
+<details open>
 <summary><b>Figure. Global temperature rise</b></summary>
 <figure>
   <p>
@@ -64,7 +67,7 @@ By 2024, the global mean surface temperature has risen by 1.45°C compared with 
 </figure>
 </details>
 
-<details>
+<details open>
 <summary><b>Figure. Global temperature history</b></summary>
 <figure>
   <p>
@@ -76,7 +79,7 @@ By 2024, the global mean surface temperature has risen by 1.45°C compared with 
 </figure>
 </details>
 
-<details>
+<details open>
 <summary><b>Figure. Sea surface temperature</b></summary>
 <figure>
   <p>
@@ -92,7 +95,7 @@ The climate change also causes the ice sheet melt. A community estimation of glo
 
 The Arctic and Antarctic sea ice extent are two major ice sheets in the earth that are influenced by climate change. The monitoring data shows that both ice sheets are shrinking, and the ice extent reaches new low records in recent years.
 
-<details>
+<details open>
 <summary><b>Figure. Global glacier mass changes from 2000 to 2023</b></summary>
 <figure>
   <p>
@@ -102,21 +105,21 @@ The Arctic and Antarctic sea ice extent are two major ice sheets in the earth th
 </figure>
 </details>
 
-<details>
+<details open>
 <summary><b>Figure. Arctic sea ice extent</b></summary>
 <figure>
   <p>
-  <img src="Figures/Notes/IceSheet/C3S_Bulletin_seaice_202503_Fig2_Arctic_daily_extent.png" alt="Description" width="800">
+  <img src="Figures/Notes/IceSheet/C3S_Bulletin_seaice_202503_Fig2_Arctic_daily_extent.png" alt="Description" width="500">
   </p>
   <figcaption><b>Figure. Arctic sea ice extent</b> (https://climate.copernicus.eu/sea-ice-cover-march-2025)</figcaption>
 </figure>
 </details>
 
-<details>
+<details open>
 <summary><b>Figure. Antarctic sea ice extent</b></summary>
 <figure>
   <p>
-  <img src="Figures/Notes/IceSheet/C3S_Bulletin_seaice_202503_Fig5_Antarctic_daily_extent.png" alt="Description" width="800">
+  <img src="Figures/Notes/IceSheet/C3S_Bulletin_seaice_202503_Fig5_Antarctic_daily_extent.png" alt="Description" width="500">
   </p>
   <figcaption><b>Antarctic sea ice extent</b> (https://climate.copernicus.eu/sea-ice-cover-march-2025)</figcaption>
 </figure>
@@ -132,17 +135,17 @@ Glacial and ice sheet melt directly leads to sea level rise. Since 1993, the glo
 
 The sea level rise threatens coastal cities. For instance, increased inundation risks, as shown in Ohenhen et al., (2024)[^Ohenhen2024].
 
-<details>
+<details open>
 <summary><b>Figure. Sea level rise since 1993</b></summary>
 <figure>
   <p>
-  <img src="Figures/Notes/SeaLevelRise/e1-pia26189-slr-update-2024.webp" alt="Description" width="800">
+  <img src="Figures/Notes/SeaLevelRise/e1-pia26189-slr-update-2024.webp" alt="Description" width="400">
   </p>
   <figcaption><b>Figure. global mean sea level (in blue) since 1993</b> (<a href="https://www.nasa.gov/missions/jason-cs-sentinel-6/sentinel-6-michael-freilich/nasa-analysis-shows-unexpected-amount-of-sea-level-rise-in-2024/#:~:text=Global%20sea%20level%20rose%20faster,(0.43%20centimeters)%20per%20year.">TNASA Analysis Shows Unexpected Amount of Sea Level Rise in 2024</a>)</figcaption>
 </figure>
 </details>
 
-<details>
+<details open>
 <summary><b>Figure. Inundation maps for cities on the US Atlantic coast.</b></summary>
 <figure>
   <p>
@@ -162,21 +165,21 @@ The sea level rise threatens coastal cities. For instance, increased inundation 
 
 Other aspects of climate change is the increasing frequency and intensity of extreme events, including drought, heatwaves, heavy precipitation/flooding, and wildfires. The direct causes of extreme are the changes of global and local temperature and precipitation patterns, which are influenced by climate change. Past studies has shown that the 1) annual hottest temperature. 2) annual coldest temperature, 3) annual maximum daily precipitation are increasing (IPCC WGI, 2021).
 
-<details>
+<details open>
 <summary><b>Figure. Trends over 1960–2018 for temperature extremes</b></summary>
 <figure>
   <p>
-    <img src="Figures\Notes\ClimateExtreme\IPCC_min_max_temp.png" alt="Description" width="1000">
+    <img src="Figures\Notes\ClimateExtreme\IPCC_min_max_temp.png" alt="Description" width="800">
   </p>
   <figcaption><b>Figure. Trends over 1960–2018 for temperature extremes</b> (a) the annual maximum daily maximum temperature (TXx), (b) the annual minimum daily minimum temperature (TNn), and (c) the annual number of days when daily maximum temperature exceeds its 90th percentile from a base period of 1961–1990 (TX90p); based on the HadEX3 dataset (Dunn et al. , 2020). Linear trends are calculated only for grid points with at least 66% of the annual values over the period and which extend to at least 2009. Areas without sufficient data are shown in grey. No overlay indicates regions where the trends are significant at the p = 0.1 level. Crosses indicate regions where trends are not significant.</figcaption>
 </figure>
 </details>
 
-<details>
+<details open>
 <summary><b>Figure. Observed trends in annual maximum daily precipitation (Rx1day) during 1950–2018</b></summary>
 <figure>
   <p>
-    <img src="Figures\Notes\ClimateExtreme\IPCC_max_p.png" alt="Description" width="1000">
+    <img src="Figures\Notes\ClimateExtreme\IPCC_max_p.png" alt="Description" width="800">
   </p>
   <figcaption><b>Figure. Signs and significance of the observed trends in annual maximum daily precipitation (Rx1day) during 1950–2018 at 8345 stations with suficient data.</b>(a) Percentage of stations with statistically significant trends in Rx1day; green dots show positive trends and brown dots negative trends. Box and ‘whisker’ plots indicate the expected percentage of stations with significant trends due to chance estimated from 1000 bootstrap realizations under a no-trend null hypothesis. The boxes mark the median, 25th percentile, and 75th percentile. The upper and lower whiskers show the 97.5th and the 2.5th percentiles, respectively. Maps of stations with positive (b) and negative (c) trends. The light colour indicates stations with non-significant trends, and the dark colour stations with significant trends. Significance is determined by a two-tailed test conducted at the 5% level. Adapted from Sun et al. (2021).</figcaption>
 </figure>
@@ -184,7 +187,7 @@ Other aspects of climate change is the increasing frequency and intensity of ext
 
 Those "abstract" changes are manifested in more "direct", "sensible" extremes that accosciated with direct damages to both nature and human systems. Here is a figure showing several extremes in 2023 [^Zhang2024]. In this year, several places experienced record-breaking extreme events, including: Worst wildfire in Canada, Wildfire in Hawaii (the deadliest fire in the US in the past century), Madagascar experiencing the hottest Oct etc.
 
-<details>
+<details open>
 <summary><b>Figure. Extreme events in 2023</b></summary>
 <figure>
   <p>
@@ -198,7 +201,7 @@ Those "abstract" changes are manifested in more "direct", "sensible" extremes th
 
 IPCC (fourth assessment report, I followed Trenberth et al., 2014's work) give a definitions: drought is defined as a 'prolonged absence or marked deficiency of precipitation', a 'deficiency of precipitation that results in water shortage for some activity or for some group' or a 'period of abnormally dry weather sufficiently prolonged for the lack of precipitation to cause a serious hydrological imbalance' [^Trenberth2014][^AghaKouchak2021]. From which, we could see that different groups/use cases may concerns different aspects of drought. Thus, the detection and identification of drought may depend on the definitions used. One widely used index is the standardized precipitation evapotranspiration index (SPEI), in which both precipitation and temperature (potential evapotranspiration) are considered, and it also contains the time scale information. From a recent publication by Gebrechorkos et al., (2025)[^Gebrechorkos2025], we could see an increasing trend in droughts globally from 1981 to 2022, as shown in the figure below.
 
-<details>
+<details open>
 <summary><b>Figure. Global increasing trend in droughts</b></summary>
 <figure>
   <p>
@@ -256,7 +259,7 @@ Some observations for Figure [^Jones2024]:
 - Vegetation information:
   - Figure C: Overall, plant NDVI increases in most regions.
 
-<details>
+<details open>
 <summary><b>Figure. Bioclimatic variables and forest fire observations</b></summary>
 <figure>
   <p>
@@ -277,11 +280,11 @@ Some observations for Figure [^Jones2024]:
 
 River flooding is another extreme that affects human societies significantly. Its causes are complex, including large weather systems, local topography, river network, etc. Though climate change increases the frequency and magnitude of heavy precipitation events, its direct connection to flooding remains uncertain due to the complex mechanisms of flooding generation and human interventions (e.g., flood control infrastructure) [^Hirabayashi2013][^Merz2021]. Similarly to drought, it is hard to define flooding due. For instance, river discharge varies significantly across different regions. Flooding with same frequency may have different impacts in different regions due to the different vulnerability and exposure of human systems. With the increasing mangement engineering works, its occurence may also be significantly changes, for instance the dam and reservoirs, especially large onse (e.g., Three Gorges Dam in China) may significantly change the flooding regime downstream. The following figure from Merz et al., (2019)[^Merz2021] shows the observed trends in flooding and its impacts (a. trends in annual maximum flow; b. trends in number of people affected by disastrous floods). We could see that the trends in maxmimum flooding exhibit large spatial heterogeneity. Only some parts of west Europe, South America,and east Asia show increasing trends, and other regions show decreasing trends or no significant trends. However, the number of people affected by disastrous floods increases in most regions, which might due to 1) population growth in floodplains; 2) increasing chance of extreme flooding events.
 
-<details>
+<details open>
 <summary><b>Figure. Observed flooding-related trends</b></summary>
 <figure>
   <p>
-    <img src="Figures/Notes/ClimateExtreme/Flooding.png" alt="Description" width="600">
+    <img src="Figures/Notes/ClimateExtreme/Flooding.png" alt="Description" width="700">
   </p>
   <figcaption><b>Figure. Observed flooding-related trends</b> a | Observed trends in annual maximum flow in the past decades based on large- scale trend studies. These trends mostly relate to small floods and might not always be representative of extreme floods. The circles and ellipses represent regions where large- scale trend studies are available and do not necessarily correspond to river basins or administrative units. The trend classification (colours in key) is based on a qualitative assessment, including the availability of large- scale trend studies, the strength and significance of detected trends and the regional coherence of trends. For each region, the specific references and their main findings are given in the Supplementary Information. b | Trends in number of people affected by disastrous floods during 1977–2019. Data, based on EmDAT (2020)172, are not normalized by population growth. Trends (% change per decade) are given as Sen’s slope228 on a country basis. Countries with little data are plotted in grey. The criterion for a country to be plotted is that at least 15 events occurred in at least 5 different years, with a minimum interval of 20 years between the first and last event. The mismatch between trend patterns in hazard and impact suggests that population growth in river floodplains has been a major driver for the increasing number of flood- affected people over the past four decades. (Blöschl2019 et al., 2015).</figcaption>
 </figure>
@@ -293,8 +296,19 @@ River flooding is another extreme that affects human societies significantly. It
 
 ## The causes of climate change and the role of human behavior
 
-# The energy balance of the earth system
+### The energy balance of the earth system
 
+The earth temperature actually is the reflection of earth energy balance. The only external energy source is the solar radiation. When radiation comes, around 30% of it is directly reflected back to the space by the atomsphere, clouds, and the land/ocean surface. The rest 70% is absorded. Among the absorbed energy, around 23% is absorbed by the atmosphere (including clouds, H2O, CO2, CH4, O3, aerosols etc.), and 47% is absorbed by the land/ocean surface. The absorbed energy then will re-emitted back to the space. In this process, earth temperature tends to be higher if there is more energy absorbed. Several factors determines the absorbed energy: 1) incoming solar radiation (depends on the solar activity and earth-sun distance). One example is the [Milankovitch cycles][Milankovitch_cycles] which is believed to cause ice age and interglacials cycles; 2) the amount of absorbed (changes in the atmosphere composition, e.g., greenhouse gases).
+
+<details open>
+<summary><b>Figure. Earth energy balance and greenhouse effects</b></summary>
+<figure>
+  <p>
+    <img src="Figures/Notes/GreenHouseEffects/EnergyBalance.png" alt="Description" width="1000">
+  </p>
+  <figcaption><b>Figure. Earth energy balance and greenhouse effects</b> The energy balance of the Earth system and the role of greenhouse gases in regulating temperature. (Steffen et al., 2015).</figcaption>
+</figure>
+</details>
 
 
 ### Others
@@ -302,7 +316,7 @@ River flooding is another extreme that affects human societies significantly. It
 #### Human activities changes in the past
 
 
-<details>
+<details open>
 <summary><b>Figure. Earth system trends</b></summary>
 <figure>
   <p>
@@ -312,7 +326,7 @@ River flooding is another extreme that affects human societies significantly. It
 </figure>
 </details>
 
-<details>
+<details open>
 <summary><b>Figure. socio-economic development</b></summary>
 <figure>
   <p>
@@ -343,7 +357,7 @@ RCPs is the abbreviation of Representative Concentration Pathways. They are gree
 - *Pathways*: are internally consistent sets of projections of the components of radiative forcing that are used in subsequent phases
 - *Concentration*: emphasizes that concentrations are used as the primary product of the RCPs, designed as input to climate models
 
-<details>
+<details open>
 <summary><b>Table. Overview of RCPs.</b></summary>
 <figure>
   <p>
@@ -353,7 +367,7 @@ RCPs is the abbreviation of Representative Concentration Pathways. They are gree
 </figure>
 </details>
 
-<details>
+<details open>
 <summary><b>Figure. IPCC relationships between the various groups</b></summary>
 <figure>
   <p>
@@ -399,7 +413,7 @@ drivers and mitigation strategies, and the analysis of societal vulnerability to
 
 SSPs are the input for the integrated assessment models.
 
-<details>
+<details open>
 <summary><b>Figure. Mitigation and adaptation challenges in five SSPs</b></summary>
 <figure>
   <p>
@@ -409,7 +423,7 @@ SSPs are the input for the integrated assessment models.
 </figure>
 </details>
 
-<details>
+<details open>
 <summary><b>Figure. Narritive summary of five SSPs</b></summary>
 <figure>
   <p>
@@ -452,3 +466,6 @@ SSPs have been developed to complement the Representative Concentration Pathways
 [^Jones2022]: [Jones, M.W., Abatzoglou, J.T., Veraverbeke, S., Andela, N., Lasslop, G., Forkel, M., Smith, A.J., Burton, C., Betts, R.A., van der Werf, G.R. and Sitch, S., 2022. Global and regional trends and drivers of fire under climate change. Reviews of Geophysics, 60(3), p.e2020RG000726.](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020RG000726)
 [^Hirabayashi2013]: [Hirabayashi, Yukiko, Roobavannan Mahendran, Sujan Koirala, Lisako Konoshima, Dai Yamazaki, Satoshi Watanabe, Hyungjun Kim, and Shinjiro Kanae. "Global flood risk under climate change." Nature climate change 3, no. 9 (2013): 816-821.](https://www.nature.com/articles/nclimate1911)
 [^Merz2021]: [Merz, B., Blöschl, G., Vorogushyn, S., Dottori, F., Aerts, J.C., Bates, P., Bertola, M., Kemter, M., Kreibich, H., Lall, U. and Macdonald, E., 2021. Causes, impacts and patterns of disastrous river floods. Nature Reviews Earth & Environment, 2(9), pp.592-609.](https://www.nature.com/articles/s43017-021-00195-3)
+
+<!-- put long links refered in the text -->
+[Milankovitch_cycles]: https://science.nasa.gov/science-research/earth-science/milankovitch-orbital-cycles-and-their-role-in-earths-climate/
