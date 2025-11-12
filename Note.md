@@ -30,6 +30,7 @@
 - [See what three degrees of global warming looks like | The Economist](https://www.youtube.com/watch?v=uynhvHZUOOo&t=22s)
 - [The carbon cycle is key to understanding climate change | The Economist](https://www.youtube.com/watch?v=yhlg9txl7yM)
 - [Climate Change Adaptation and Future Climate Projection | CCCA](https://www.youtube.com/watch?v=8jhSHm7qjBg)
+- [In a warmer world, tornado behaviour is changing – this is how we can prepare | BBC](https://www.bbc.com/future/article/20240522-climate-change-experts-advise-how-to-prepare-for-a-tornado)
 
 ### Other links
 
@@ -49,6 +50,7 @@
 - [Climate Change Evidence and Causes: Update 2020 | The National Academy of Sciences; The Royal Society](https://nap.nationalacademies.org/catalog/25733/climate-change-evidence-and-causes-update-2020)
 - [What causes the Earth's climate to change? | British Geological Survey](https://www.bgs.ac.uk/discovering-geology/climate-change/what-causes-the-earths-climate-to-change/)
 - [Has volcanic activity been increasing? | Smithsonian Institution](https://volcano.si.edu/faq/index.cfm?question=historicalactivity)
+
 ## Signs of climate change
 
 There are multiple signs suggest climate change is happening, two of types of them are: long-term change and extreme events.
@@ -56,16 +58,6 @@ There are multiple signs suggest climate change is happening, two of types of th
 ### Temperature rise
 
 By 2024, the global mean surface temperature has risen by 1.45°C compared with the pre-industrial level (1850-1900 average) [^WMO2024]. Recently, the warming rate accelerated.
-
-<details open>
-<summary><b>Figure. Global temperature rise</b></summary>
-<figure>
-  <p>
-  <img src="Figures/Notes/Temperature/GlobalTemperature.png" alt="Description" width="700">
-  </p>
-  <figcaption><b>Figure. Global temperature rise</b> Trends in global surface temperature from 1880 to 2023. (WMO, 2024)[^WMO2024].</figcaption>
-</figure>
-</details>
 
 <details open>
 <summary><b>Figure. Global temperature history</b></summary>
@@ -294,11 +286,17 @@ River flooding is another extreme that affects human societies significantly. It
 
 > Intro to **Merz et al., (2024)[^Merz2021]**: This paper give a comprehensive review of flooding, mainly disastrous flooding, research, including the causes, trends, social impact, and future projections.
 
+#### Hurricanes/Typhoons and Tornadoes
+
+For hurricanes/typhoons, it seems that climate change doesnot increase their frequency, but IPCC reported that cliamte change increases their intensity and the associated precipitation with medium confidence.
+
+For Tornadoes, no increasing trend has been observed for their frequency, but tornado is reported to be more concentrated, this is to say, more tornadoes happens in within a shorter time period Brooks et al., (2014)[^Brooks2014]. [Tippett et al., (2016)[^Tippett2016] reported that climate change is likely increasing the frequency of the tornado outbreaks in the United States. Besides, in the U.S., the extent of tornado
+
 ## The causes of climate change and the role of human behavior
 
 ### The energy balance of the earth system
 
-The earth temperature actually is the reflection of earth energy balance. The only external energy source is the solar radiation. When radiation comes, around 30% of it is directly reflected back to the space by the atomsphere, clouds, and the land/ocean surface. The rest 70% is absorded. Among the absorbed energy, around 23% is absorbed by the atmosphere (including clouds, H2O, CO2, CH4, O3, aerosols etc.), and 47% is absorbed by the land/ocean surface. The absorbed energy then will re-emitted back to the space. In this process, earth temperature tends to be higher if there is more energy absorbed. Several factors determines the absorbed energy: 1) incoming solar radiation (depends on the solar activity and earth-sun distance). One example is the [Milankovitch cycles][Milankovitch_cycles] which is believed to cause ice age and interglacials cycles; 2) the amount of absorbed (changes in the atmosphere composition, e.g., greenhouse gases).
+The earth temperature actually is the reflection of earth energy balance. The only external energy source is the solar radiation. When radiation comes, around 30% of it is directly reflected back to the space by the atomsphere, clouds, and the land/ocean surface. The rest 70% is absorded. Among the absorbed energy, around 23% is absorbed by the atmosphere (including clouds, H2O, CO2, CH4, O3, aerosols etc.), and 47% is absorbed by the land/ocean surface. The absorbed energy then will re-emitted back to the space. Radiation emitted by ocean and land is also absorbed by atomsphere. In this process, earth temperature tends to be higher if there is more energy absorbed. Several factors determines the absorbed energy: 1) incoming solar radiation (depends on the solar activity and earth-sun distance). One example is the [Milankovitch cycles][Milankovitch_cycles] which is believed to cause ice age and interglacials cycles; 2) the amount of absorbed in either downward or upward directions (changes in the atmosphere composition, e.g., greenhouse gases).
 
 <details open>
 <summary><b>Figure. Earth energy balance and greenhouse effects</b></summary>
@@ -310,11 +308,50 @@ The earth temperature actually is the reflection of earth energy balance. The on
 </figure>
 </details>
 
+#### Solar activity
 
-### Others
+Solar activity is one of the major factors determines the incoming energy to the earth system. However, current studies shows that solar activity changes little in the past decades, and even a slight decrease has been observed.
 
-#### Human activities changes in the past
+<details open>
+<summary><b>Figure. Solar activity</b></summary>
+<figure>
+  <p>
+    <img src="Figures/Notes/GreenHouseEffects/temperature_vs_solar_activity_2021.png" alt="Description" width="500">
+  </p>
+  <figcaption><b>Figure. Solar activity</b>  global surface temperature changes (red line) and the Sun's energy that Earth receives (yellow line) in watts (units of energy) per square meter since 1880. The lighter/thinner lines show the yearly levels while the heavier/thicker lines show the 11-year average trends. Eleven-year averages are used to reduce the year-to-year natural noise in the data, making the underlying trends more obvious (https://science.nasa.gov/climate-change/causes/).</figcaption>
+</figure>
+</details>
 
+#### Atmospheric energy absorption and greenhouse effects
+
+Different gases in the atmosphere absorbs energy differently, which is characerterized by their frequency. We have seen the reflectance spectrum in remote sensing class. This is similar, but in a opposite way, the absorption spectrum, the fraction of energy absorbed at different frequencies by differnt gases. Among those, water vapor exhibit the strongest absorption capacity, and is the strongest greenhouse gas. Interestingly, O3 exhibits strong absorption in the ultraviolet band, which protects us from the harmful UV radiation from the sun. CO2 also exhibits strong absorption in several infrared bands, and an observational and also numerical experiment by Feldman et al., (2015)[^Feldman2015] confirms that considering the increase of CO2 concentration in the atmosphere indeed helps to close the energy balance gap.
+
+<details open>
+<summary><b>Figure. Absorption spectra of various gases in the atmosphere</b></summary>
+<figure>
+  <p>
+    <img src="Figures/Notes/GreenHouseEffects/CO2_GHG.png" alt="Description" width="600">
+  </p>
+  <figcaption><b>Figure. Absorption spectra of various gases in the atmosphere</b> a. Sample clear-sky AERI (channel 1) spectrum measured at SGP on 14 March 2001 2330Z, transmission calculation (Trans.) from LBLRTM, and the difference in transmission (ΔTrans.) calculated for a 22 ppm change in column-averaged CO2 (370–392 ppm) (Feldman et al., 2015). b. The absorption spectra of various gases in the atmosphere, and of the atmosphere as a whole. Note that water vapor and carbon dioxide both readily absorb radiation at several infrared wavelengths (near 1 micron and greater on the graphic). (https://www.e-education.psu.edu/meteo3/l2_p7.html). c. The absorption coefficient of some of the principal greenhouse gases for electromagnetic radiations with wavenumber values (with concentration and pressure conditions). Wavenumber is frequency. </figcaption>
+</figure>
+</details>
+
+
+There are multiple sources of CO2 emissions, both natural and anthropogenic. Observations has confirmed increasing CO2 concentration along with the temperature rise in the past decades, known as the Keeling curve. Keeling curve is the observed CO2 concentration at Mauna Loa observatory since 1958. It exhibit long term increasing trend, along with seasonal cycle (due to the plant growth and decay cycle), see the video generated by NASA ([A Year in the Life of Earth's CO2 | NASA](https://www.youtube.com/watch?v=x1SgmFa0r04&list=PLQVWjfOruX-x7DVigo9P2rfknMVFASc5-)). Natural sources include volcanic eruptions, wildfires, etc. The wildfires induced carbon released recently has recieved more attention due to the increasing wildfire activities under climate change, see Jones et al., (2024)[^Jones2024] mentioned above for some details.
+
+<details open>
+<summary><b>Figure. Keeling Curve</b></summary>
+<figure>
+  <p>
+    <img src="Figures/Notes/GreenHouseEffects/mlo_full_record.png" alt="Description" width="600">
+  </p>
+  <figcaption><b>Figure. Keeling Curve</b> The observed CO2 concentration at Mauna Loa Observatory since 1958, showing a long-term increasing trend along with a seasonal cycle (due to plant growth and decay). (https://www.esrl.noaa.gov/gmd/ccgg/trends/).</figcaption>
+</figure>
+</details>
+
+Volcanic eruptions also release CO2. Its records actually is interesting which is largely affected by human attention. See [Has volcanic activity been increasing? | Smithsonian Institution](https://volcano.si.edu/faq/index.cfm?question=historicalactivity) for more details. For large eruptions, no evidence shows an increasing trend in the past decades.
+
+Here is other trends and changes for earth system and human activities since 1750, see Steffen et al., (2015)[^Steffen2015] for more details. Basically, both the earth system and human activities has significant changes since industrial revolution, especially after 1950s, known as the "Great Acceleration".
 
 <details open>
 <summary><b>Figure. Earth system trends</b></summary>
@@ -330,7 +367,7 @@ The earth temperature actually is the reflection of earth energy balance. The on
 <summary><b>Figure. socio-economic development</b></summary>
 <figure>
   <p>
-    <img src="Figures/Notes/Social/10.1177_2053019614564785-fig1.jpg" alt="Description" width="400">
+    <img src="Figures/Notes/Social/10.1177_2053019614564785-fig1.jpg" alt="Description" width="600">
   </p>
   <figcaption><b>Figure. socio-economic development</b> Trends from 1750 to 2010 in globally aggregated indicators for socio-economic development. (Steffen et al., 2015). The figure illustrates the "Great Acceleration" in human activities since the mid-20th century, highlighting key indicators such as population growth, economic activity, and resource consumption.</figcaption>
 </figure>
@@ -338,6 +375,18 @@ The earth temperature actually is the reflection of earth energy balance. The on
 
 ##### Some cases:
 > Intro to **Steffen et al., (2015)[^Steffen2015]**: This paper discusses the concept of the Anthropocene and the significant changes in human activities and their impact on the Earth system. It highlights the "Great Acceleration" in human activities since the mid-20th century, which has led to unprecedented changes in the environment, including climate change, biodiversity loss, and alterations to biogeochemical cycles.
+
+## GCMs
+
+Though we have seen some observational/theoretical evidence that greenhouse gases, especially CO2, has the potential to cause global warming, to what extent is unclear. There is a gap from increase CO2 $\rightarrow$ more absorbed infrared radiation $\rightarrow$ temperature increase, especailly in a quantatively way. Physical models are proposed to bridge this gap. Arrhenius was the first person to quantify the impact of CO2 on global temperature in 19th century [^Arrhenius1897]. His work mainly based on the energy balance, considering energy partitioning, greenhouse effects and water vapor feedbacks, which set the foundation for modern climate models. The framework is further developed, and one important milestone is the work by Manabe and Wetherald (1967)[^Manabe1967], who developed a **one-dimensional** radiative-convective model to simulate the vertical structure of the atmosphere and its response to increased CO2 levels. Manabe recieved the [Nobel Prize in Physics in 2021](https://www.nobelprize.org/prizes/physics/2021/summary/) for their work on climate models ([lecture video](https://www.nobelprize.org/prizes/physics/2021/manabe/lecture/)).
+
+Nowadays, those physical models model becomes more and more complex, and now are performed on 3D grids with higher spatial and temporal resolutions, generally known as General Circulation Models (GCMs). 
+
+General Circulation Models (GCMs), also known as Climate Models (CMs), are numerical models that simulate the Earth's climate system. They are based on the fundamental principles of physics, including the conservation of mass, momentum, and energy. GCMs divide the Earth into a three-dimensional grid and solve equations that describe the behavior of the atmosphere, oceans, land surface, and ice.
+
+##### Some notes:
+
+> Intro to **Svante Arrhenius**. Arrhenius is a well-known Swedish physicist and chemist. He set the foundation for the modern theory of electrolytic dissociation, for which he won the Nobel Prize in Chemistry in 1903. Based on that, he also proposed the definition of acid and alkalis. The Arrhenius equation, which describes the temperature dependence of reaction rates, is also been used in various fields of science, including earth and soil biogeochemistry. He was also the first person to quantitatively estimate the impact of CO2 on global temperature, proposing that doubling CO2 concentration could lead to a significant increase in global temperature.
 
 ### IPCC report
 
@@ -466,6 +515,11 @@ SSPs have been developed to complement the Representative Concentration Pathways
 [^Jones2022]: [Jones, M.W., Abatzoglou, J.T., Veraverbeke, S., Andela, N., Lasslop, G., Forkel, M., Smith, A.J., Burton, C., Betts, R.A., van der Werf, G.R. and Sitch, S., 2022. Global and regional trends and drivers of fire under climate change. Reviews of Geophysics, 60(3), p.e2020RG000726.](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020RG000726)
 [^Hirabayashi2013]: [Hirabayashi, Yukiko, Roobavannan Mahendran, Sujan Koirala, Lisako Konoshima, Dai Yamazaki, Satoshi Watanabe, Hyungjun Kim, and Shinjiro Kanae. "Global flood risk under climate change." Nature climate change 3, no. 9 (2013): 816-821.](https://www.nature.com/articles/nclimate1911)
 [^Merz2021]: [Merz, B., Blöschl, G., Vorogushyn, S., Dottori, F., Aerts, J.C., Bates, P., Bertola, M., Kemter, M., Kreibich, H., Lall, U. and Macdonald, E., 2021. Causes, impacts and patterns of disastrous river floods. Nature Reviews Earth & Environment, 2(9), pp.592-609.](https://www.nature.com/articles/s43017-021-00195-3)
+[^Feldman2015]: [Feldman, D.R., Collins, W.D., Gero, P.J., Torn, M.S., Mlawer, E.J. and Shippert, T.R., 2015. Observational determination of surface radiative forcing by CO2 from 2000 to 2010. Nature, 519(7543), pp.339-343.](https://www.nature.com/articles/nature14240)
+[^Tippett2016]: [Tippett, M.K., Lepore, C. and Cohen, J.E., 2016. More tornadoes in the most extreme US tornado outbreaks. Science, 354(6318), pp.1419-1423.](https://www.science.org/doi/10.1126/science.aah7393)
+[^Brooks2014]: [Brooks, H.E., Carbin, G.W. and Marsh, P.T., 2014. Increased variability of tornado occurrence in the United States. Science, 346(6207), pp.349-352.](https://www.science.org/doi/10.1126/science.1257460)
+[^Arrhenius1897]: [Arrhenius, S. and Holden, E.S., 1897. On the influence of carbonic acid in the air upon the temperature of the earth. Publications of the Astronomical Society of the Pacific, 9(54), pp.14-24.](https://www.jstor.org/stable/40670917?seq=1)
+[^Manabe1967]: [Manabe, S. and Wetherald, R.T., 1967. Thermal equilibrium of the atmosphere with a given distribution of relative humidity. J. atmos. Sci, 24(3), pp.241-259.](https://journals.ametsoc.org/view/journals/atsc/24/3/1520-0469_1967_024_0241_teotaw_2_0_co_2.xml)
 
 <!-- put long links refered in the text -->
 [Milankovitch_cycles]: https://science.nasa.gov/science-research/earth-science/milankovitch-orbital-cycles-and-their-role-in-earths-climate/
