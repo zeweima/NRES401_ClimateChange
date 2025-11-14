@@ -54,6 +54,8 @@
 - [Aerosols: Tiny Particles, Big Impact | NASA](https://science.nasa.gov/earth/earth-observatory/aerosols/)
 - [Fast, accurate climate modeling with NeuralGCM | Google AI Blog](https://research.google/blog/fast-accurate-climate-modeling-with-neuralgcm/)
 - [Cities and Climate Change | MIT open class](https://dusp.mit.edu/news/cities-and-climate-change)
+- [Responding to Climate Change | NASA](https://science.nasa.gov/climate-change/adaptation-mitigation/)
+- [Top Takeaways from the UN World Leaders Summit at COP26 | World Resources Institute](https://www.wri.org/insights/top-takeaways-un-world-leaders-summit-cop26)
 
 ## Signs of climate change
 
@@ -414,6 +416,8 @@ By using GCMs, researchers confirmed that CO2 increase is the main driver of rec
 </figure>
 </details>
 
+### Machine learning in GCMs
+
 Recently, due to the exposion of AI techniques, efforts have been made to use ML models as a means to do predicitons, but mainly for short-term predicitons (e.g., hours to 2-weeks). From my understanding, ML suffers from the problems of extrapolation due to the lack of physical basis, which limits its application in long-term climate predictions. However, given the advantage of ML in calculation speed, researchers are trying to combine ML with physical models in multiples ways, e.g., using ML to emulate certain physical processes that are computationally expensive to simulate, helping to parameterize the model, or using ML to downscale GCM outputs to higher resolutions. This is an active research area with great potential. Here are several sucessful cases:
 
 - NeuralGCM from Google Research [^Kochkov2024]: hybrid physics-ML model, climate prediction
@@ -555,9 +559,47 @@ SSPs have been developed to complement the Representative Concentration Pathways
 </figure>
 </details>
 
+#### Comparison between RCPs and SSPs
+
+Actually, the physics have been updated from RCPs to SSPs. The numbers in both cases refers to the stratospheric-adjusted radiative forcing. However, the IPCC AR6 uses a new metric, Effective Radiative Forcing (ERF), which differs from the stratospheric-adjusted radiative forcing. ERF includes the rapid adjustments in the atmosphere and land surface that occur in response to a change in forcing agent, before any change in global mean surface temperature. Also, the greenhouse gas concentration in SSPs are different from RCPs, due to the update of emission scenarios [^Meinshausen2020]. Thus, the mapping between RCPs and SSPs is not one-to-one. 
+
+<details open>
+<summary><b>Figure. Comparison of RCPs and SSPs run by a single emulator to estimate scenario differences</b></summary>
+<figure>
+  <p>
+    <img src="Figures\Notes\SSPs\SRL-image-34.png" alt="Description" width="400">
+  </p>
+  <figcaption><b>Figure. Narritive summary of five SSPs </b> Time series with 5–95% ranges and medians of (a) effective radiative forcings, calculated as described in Annex 7.A.1; and (b) global surface air temperature projections relative to 1850–1900 for the RCP and SSP scenarios from MAGICC 7.5. Note that the nameplate radiative forcing level refers to stratospheric adjusted radiative forcings in AR5-consistent settings (Tebaldi et al., 2021) while ERFs may differ. MAGICC7.5 is here run in the recommended setup for WGIII, prescribing observed GHG concentrations for the historical period and switching to emissions-driven runs in 2015. (IPCC AR6 WG1, 2022)</figcaption>
+</figure>
+</details>
+
 ### Climate adaptation and mitigation
 
+Climate has happened and is happening. Therefore, there are two main strategies to deal with it: 1) reducing the magenitude of climate change, known as climate mitigation; 2) adapting to life in a changing climate, known as climate adaptation. Both strategies are important and complementary. Mitigation focuses on addressing the root causes of climate change by reducing greenhouse gas emissions and enhancing carbon sinks. Adaptation focuses on adjusting to the current and projected impacts of climate change to minimize harm and take advantage of any potential benefits.
 
+#### The Paris Agreement
+
+Paris Agreement is a landmark international accord adopted in 2015 under the United Nations Framework Convention on Climate Change (UNFCCC). Its main goal is to limit global warming to well below 2 degrees Celsius above pre-industrial levels, with efforts to limit the increase to 1.5 degrees Celsius.
+
+The Agreement sets long-term goals to guide all nations to:
+
+- substantially reduce global greenhouse gas emissions to hold global temperature increase to well below 2°C above pre-industrial levels and pursue efforts to limit it to 1.5°C above pre-industrial levels, recognizing that this would significantly reduce the risks and impacts of climate change
+- periodically assess the collective progress towards achieving the purpose of this agreement and its long-term goals
+- provide financing to developing countries to mitigate climate change, strengthen resilience and enhance abilities to adapt to climate impacts.
+
+#### Countries commitments to net zero
+
+In COP26 held in Glasgow in 2021, Over 140 countries countries pledged to achieve net-zero emissions by or around mid-century. Net-zero means that any greenhouse gas emissions are balanced by absorbing an equivalent amount from the atmosphere, through measures such as reforestation, carbon capture and storage, and other technologies.
+
+<details open>
+<summary><b>Figure. Countries commitments to net zero (COP26)</b></summary>
+<figure>
+  <p>
+    <img src="Figures\Notes\NetZero\when-will-countries-pledge-net-zero-cop-2021.png" alt="Description" width="800">
+  </p>
+  <figcaption><b>Figure. Countries commitments to net zero (COP26, 2021).</b></figcaption>
+</figure>
+</details>
 
 #### Some papers:
 
@@ -598,6 +640,7 @@ SSPs have been developed to complement the Representative Concentration Pathways
 [^Lam]: [Lam, R., Sanchez-Gonzalez, A., Willson, M., Wirnsberger, P., Fortunato, M., Alet, F., Ravuri, S., Ewalds, T., Eaton-Rosen, Z., Hu, W. and Merose, A., 2023. Learning skillful medium-range global weather forecasting. Science, 382(6677), pp.1416-1421.](https://www.science.org/stoken/author-tokens/ST-1550/full)
 [^Bi2023]: [Bi, K., Xie, L., Zhang, H., Chen, X., Gu, X. and Tian, Q., 2023. Accurate medium-range global weather forecasting with 3D neural networks. Nature, 619(7970), pp.533-538.](https://www.nature.com/articles/s41586-023-06185-3)
 [^Bodnar2025]:[Bodnar, C., Bruinsma, W.P., Lucic, A., Stanley, M., Allen, A., Brandstetter, J., Garvan, P., Riechert, M., Weyn, J.A., Dong, H. and Gupta, J.K., 2025. A foundation model for the Earth system. Nature, pp.1-8.](https://www.nature.com/articles/s41586-025-09005-y)
+[^Meinshausen2020]: [Meinshausen, M., Nicholls, Z.R., Lewis, J., Gidden, M.J., Vogel, E., Freund, M., Beyerle, U., Gessner, C., Nauels, A., Bauer, N. and Canadell, J.G., 2020. The shared socio-economic pathway (SSP) greenhouse gas concentrations and their extensions to 2500. Geoscientific Model Development, 13(8), pp.3571-3605.](https://gmd.copernicus.org/articles/13/3571/2020/)
 
 <!-- put long links refered in the text -->
 [Milankovitch_cycles]: https://science.nasa.gov/science-research/earth-science/milankovitch-orbital-cycles-and-their-role-in-earths-climate/
