@@ -31,6 +31,7 @@
 - [The carbon cycle is key to understanding climate change | The Economist](https://www.youtube.com/watch?v=yhlg9txl7yM)
 - [Climate Change Adaptation and Future Climate Projection | CCCA](https://www.youtube.com/watch?v=8jhSHm7qjBg)
 - [In a warmer world, tornado behaviour is changing – this is how we can prepare | BBC](https://www.bbc.com/future/article/20240522-climate-change-experts-advise-how-to-prepare-for-a-tornado)
+- [Neural General Circulation Models for Weather + Climate | LEAP & Google Research](https://www.youtube.com/watch?v=Y8rX4g0k9tw)
 
 ### Other links
 
@@ -50,6 +51,8 @@
 - [Climate Change Evidence and Causes: Update 2020 | The National Academy of Sciences; The Royal Society](https://nap.nationalacademies.org/catalog/25733/climate-change-evidence-and-causes-update-2020)
 - [What causes the Earth's climate to change? | British Geological Survey](https://www.bgs.ac.uk/discovering-geology/climate-change/what-causes-the-earths-climate-to-change/)
 - [Has volcanic activity been increasing? | Smithsonian Institution](https://volcano.si.edu/faq/index.cfm?question=historicalactivity)
+- [Aerosols: Tiny Particles, Big Impact | NASA](https://science.nasa.gov/earth/earth-observatory/aerosols/)
+- [Fast, accurate climate modeling with NeuralGCM | Google AI Blog](https://research.google/blog/fast-accurate-climate-modeling-with-neuralgcm/)
 
 ## Signs of climate change
 
@@ -290,7 +293,7 @@ River flooding is another extreme that affects human societies significantly. It
 
 For hurricanes/typhoons, it seems that climate change doesnot increase their frequency, but IPCC reported that cliamte change increases their intensity and the associated precipitation with medium confidence.
 
-For Tornadoes, no increasing trend has been observed for their frequency, but tornado is reported to be more concentrated, this is to say, more tornadoes happens in within a shorter time period Brooks et al., (2014)[^Brooks2014]. [Tippett et al., (2016)[^Tippett2016] reported that climate change is likely increasing the frequency of the tornado outbreaks in the United States. Besides, in the U.S., the extent of tornado
+For Tornadoes, no increasing trend has been observed for their frequency, but tornado is reported to be more concentrated, this is to say, more tornadoes happens in within a shorter time period Brooks et al., (2014)[^Brooks2014]. Tippett et al., (2016)[^Tippett2016] reported that climate change is likely increasing the frequency of the tornado outbreaks in the United States. Besides, in the U.S., the extent of tornado
 
 ## The causes of climate change and the role of human behavior
 
@@ -373,6 +376,10 @@ Here is other trends and changes for earth system and human activities since 175
 </figure>
 </details>
 
+#### The effects of aerosols
+
+Aerosols are a product of human activities, mainly from fossil fuel combustion and biomass burning. Aerosols could directly reflect incoming solar radiation back to space, and recent study has showed that aerosols could leading to a slightly cooling for the earth [].
+
 ##### Some cases:
 > Intro to **Steffen et al., (2015)[^Steffen2015]**: This paper discusses the concept of the Anthropocene and the significant changes in human activities and their impact on the Earth system. It highlights the "Great Acceleration" in human activities since the mid-20th century, which has led to unprecedented changes in the environment, including climate change, biodiversity loss, and alterations to biogeochemical cycles.
 
@@ -380,9 +387,39 @@ Here is other trends and changes for earth system and human activities since 175
 
 Though we have seen some observational/theoretical evidence that greenhouse gases, especially CO2, has the potential to cause global warming, to what extent is unclear. There is a gap from increase CO2 $\rightarrow$ more absorbed infrared radiation $\rightarrow$ temperature increase, especailly in a quantatively way. Physical models are proposed to bridge this gap. Arrhenius was the first person to quantify the impact of CO2 on global temperature in 19th century [^Arrhenius1897]. His work mainly based on the energy balance, considering energy partitioning, greenhouse effects and water vapor feedbacks, which set the foundation for modern climate models. The framework is further developed, and one important milestone is the work by Manabe and Wetherald (1967)[^Manabe1967], who developed a **one-dimensional** radiative-convective model to simulate the vertical structure of the atmosphere and its response to increased CO2 levels. Manabe recieved the [Nobel Prize in Physics in 2021](https://www.nobelprize.org/prizes/physics/2021/summary/) for their work on climate models ([lecture video](https://www.nobelprize.org/prizes/physics/2021/manabe/lecture/)).
 
-Nowadays, those physical models model becomes more and more complex, and now are performed on 3D grids with higher spatial and temporal resolutions, generally known as General Circulation Models (GCMs). 
+Nowadays, those physical models model becomes more and more complex, are known as General Circulation Models (GCMs). Basically, they are numerical models that simulate the Earth's climate system based on the fundamental principles of physics, including the conservation of mass, momentum, and energy. GCMs divide the Earth into a three-dimensional grid and solve equations that describe the behavior of the atmosphere, oceans, land surface, and ice.
 
-General Circulation Models (GCMs), also known as Climate Models (CMs), are numerical models that simulate the Earth's climate system. They are based on the fundamental principles of physics, including the conservation of mass, momentum, and energy. GCMs divide the Earth into a three-dimensional grid and solve equations that describe the behavior of the atmosphere, oceans, land surface, and ice.
+<details open>
+<summary><b>Figure. General Circulation Models</b></summary>
+<figure>
+  <p>
+    <img src="Figures/Notes/GCMs/GCM.png" alt="Description" width="500">
+  </p>
+  <figcaption><b>Figure. General Circulation Models (GCMs)</b> Schematic structure of a General Circulation Model (https://www.e-education.psu.edu/earth103/node/524).</figcaption>
+</figure>
+</details>
+
+General circulation models, or sometime called climate models, are powerful tools for understanding past, present, and future climate conditions. With those model, reseachers could isolate the effects of different factors (e.g., greenhouse gases, aerosols, land use changes) on climate chanage, longterm and shortterm climate predictions, and explore the potential impacts of different mitigation and adaptation strategies.
+
+By using GCMs, researchers confirmed that CO2 increase is the main driver of recent global warming. In the later part, the GCMs are also used to generate predictions over different scenarios.
+
+<details open>
+<summary><b>Figure. Human impact on climate change attribution</b></summary>
+<figure>
+  <p>
+    <img src="Figures/Notes/Attribution/Attribution.png" alt="Description" width="900">
+  </p>
+  <figcaption><b>Figure. Human impact on climate change attribution.</b> <b>Left: Temporal evolution of effective radiative forcing (ERF) related to the drivers</b>;  <b>Right: Assessed contributions to observed warming in 2010–2019 relative to 1850–1900.</b>  Panel (a) Observed global warming (increase in global surface temperature). Whiskers show the very likely range. Panel (b) Evidence from attribution studies, which synthesize information from climate models and observations. The panel shows temperature change attributed to: total human influence; changes in well-mixed greenhouse gas concentrations; other human drivers due to aerosols, ozone and land-use change (land-use reflectance); solar and volcanic drivers; and internal climate variability. Whiskers showlikely ranges. Panel (c) Evidence from the assessment of radiative forcing and climate sensitivity. The panel shows temperature changes from individual components of human influence: emissions of greenhouse gases, aerosols and their precursors; land-use changes (land-use reflectance and irrigation); and aviation contrails. Whiskers showvery likely ranges. Estimates account for both direct emissions into the atmosphere and their effect, if any, on other climate drivers. For aerosols, both direct effects (through radiation) and indirect effects (through interactions with clouds) are considered (source: IPCC AR6, 2021).</figcaption>
+</figure>
+</details>
+
+Recently, due to the exposion of AI techniques, efforts have been made to use ML models as a means to do predicitons, but mainly for short-term predicitons (e.g., hours to 2-weeks). From my understanding, ML suffers from the problems of extrapolation due to the lack of physical basis, which limits its application in long-term climate predictions. However, given the advantage of ML in calculation speed, researchers are trying to combine ML with physical models in multiples ways, e.g., using ML to emulate certain physical processes that are computationally expensive to simulate, helping to parameterize the model, or using ML to downscale GCM outputs to higher resolutions. This is an active research area with great potential. Here are several sucessful cases:
+
+- NeuralGCM from Google Research [^Kochkov2024]: hybrid physics-ML model, climate prediction
+- GraphCast from Google Research [^Lam]: Data driven, Medium-Range, ML model
+- Pangu-Weather from Huawei [^Bi2023]: Data driven, Medium-Range, ML model
+- Aurora from Microsoft [^Bodnar2025]: Data driven, Medium-Range, foundation model
+
 
 ##### Some notes:
 
@@ -483,6 +520,7 @@ SSPs are the input for the integrated assessment models.
 </details>
 
 ###### Definition of SSPs from IPCC
+
 SSPs have been developed to complement the Representative Concentration Pathways (RCPs). By design, the RCP emission and concentration pathways were stripped of their association with a certain socio-economic development. Different levels of emissions and climate change along the dimension of the RCPs can hence be explored against the backdrop of different socio-economic development pathways (SSPs) on the other dimension in a matrix. This integrative SSP-RCP framework is now widely used in the climate impact and policy analysis literature, where climate projections obtained under the RCP scenarios are analysed against the backdrop of various SSPs. As several emission updates were due, a new set of emission scenarios was developed in conjunction with the SSPs. Hence, the abbreviation SSP is now used for two things: On the one hand SSP1, SSP2, …, SSP5 are used to denote the five socio-economic scenario families. On the other hand, the abbreviations SSP1‑1.9, SSP1‑2.6, …, SSP5‑8.5 are used to denote the newly developed emission scenarios that are the result of an SSP implementation within an integrated assessment model. Those SSP scenarios are bare of climate policy assumption, but in combination with so-called shared policy assumptions (SPAs), various approximate radiative forcing levels of 1.9, 2.6, …, or 8.5 W m–2 are reached by the end of the century, respectively.
 
 ##### Some papers:
@@ -520,6 +558,10 @@ SSPs have been developed to complement the Representative Concentration Pathways
 [^Brooks2014]: [Brooks, H.E., Carbin, G.W. and Marsh, P.T., 2014. Increased variability of tornado occurrence in the United States. Science, 346(6207), pp.349-352.](https://www.science.org/doi/10.1126/science.1257460)
 [^Arrhenius1897]: [Arrhenius, S. and Holden, E.S., 1897. On the influence of carbonic acid in the air upon the temperature of the earth. Publications of the Astronomical Society of the Pacific, 9(54), pp.14-24.](https://www.jstor.org/stable/40670917?seq=1)
 [^Manabe1967]: [Manabe, S. and Wetherald, R.T., 1967. Thermal equilibrium of the atmosphere with a given distribution of relative humidity. J. atmos. Sci, 24(3), pp.241-259.](https://journals.ametsoc.org/view/journals/atsc/24/3/1520-0469_1967_024_0241_teotaw_2_0_co_2.xml)
+[^Kochkov2024]: [Kochkov, D., Yuval, J., Langmore, I., Norgaard, P., Smith, J., Mooers, G., Klöwer, M., Lottes, J., Rasp, S., Düben, P. and Hatfield, S., 2024. Neural general circulation models for weather and climate. Nature, 632(8027), pp.1060-1066.](https://www.nature.com/articles/s41586-024-07744-y)
+[^Lam]: [Lam, R., Sanchez-Gonzalez, A., Willson, M., Wirnsberger, P., Fortunato, M., Alet, F., Ravuri, S., Ewalds, T., Eaton-Rosen, Z., Hu, W. and Merose, A., 2023. Learning skillful medium-range global weather forecasting. Science, 382(6677), pp.1416-1421.](https://www.science.org/stoken/author-tokens/ST-1550/full)
+[^Bi2023]: [Bi, K., Xie, L., Zhang, H., Chen, X., Gu, X. and Tian, Q., 2023. Accurate medium-range global weather forecasting with 3D neural networks. Nature, 619(7970), pp.533-538.](https://www.nature.com/articles/s41586-023-06185-3)
+[^Bodnar2025]:[Bodnar, C., Bruinsma, W.P., Lucic, A., Stanley, M., Allen, A., Brandstetter, J., Garvan, P., Riechert, M., Weyn, J.A., Dong, H. and Gupta, J.K., 2025. A foundation model for the Earth system. Nature, pp.1-8.](https://www.nature.com/articles/s41586-025-09005-y)
 
 <!-- put long links refered in the text -->
 [Milankovitch_cycles]: https://science.nasa.gov/science-research/earth-science/milankovitch-orbital-cycles-and-their-role-in-earths-climate/
